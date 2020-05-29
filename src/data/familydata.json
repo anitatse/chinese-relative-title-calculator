@@ -1,0 +1,2508 @@
+{
+  "names": {
+    "canto": {
+      "pinyin": "ngo",
+      "characters": "我",
+      "audio": "url"
+    },
+    "mando": {
+      "pinyin": "Wǒ",
+      "characters": "我",
+      "audio": "url"
+    }
+  },
+  "dad": {
+    "names": {
+      "canto": {
+        "pinyin": "Bàhbā",
+        "characters": "爸爸",
+        "audio": "url"
+      },
+      "mando": {
+        "pinyin": "Bàbà",
+        "characters": "爸爸",
+        "audio": "url"
+      }
+    },
+    "dad": {
+      "names": {
+        "canto": {
+          "pinyin": "Yèhyé",
+          "characters": "爺爺",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Yéyé",
+          "characters": "爷爷",
+          "audio": "url"
+        }
+      },
+      "dad": {
+        "names": {
+          "canto": {
+            "pinyin": "Taiyé",
+            "characters": "太爺",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Zēngzǔfù",
+            "characters": "曾祖父",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "mom": {
+        "names": {
+          "canto": {
+            "pinyin": "Taimàh",
+            "characters": "太嫲",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Zēngzǔmǔ",
+            "characters": "曾祖母",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "husband": "",
+      "wife": "",
+      "olderbrother": {
+        "names": {
+          "canto": {
+            "pinyin": "Baakgōng",
+            "characters": "伯公",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Bógōng",
+            "characters": "伯公",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": {
+          "names": {
+            "canto": {
+              "pinyin": "Baakpó",
+              "characters": "伯婆",
+              "audio": "url"
+            },
+            "mando": {
+              "pinyin": "Bópó",
+              "characters": "伯婆",
+              "audio": "url"
+            }
+          },
+          "dad": "",
+          "mom": "",
+          "husband": "",
+          "wife": "",
+          "olderbrother": "",
+          "oldersister": "",
+          "youngerbrother": "",
+          "youngersister": "",
+          "son": "",
+          "daughter": ""
+        },
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "oldersister": {
+        "names": {
+          "canto": {
+            "pinyin": "Gupo",
+            "characters": "姑婆",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Gūpó",
+            "characters": "姑婆",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": {
+          "names": {
+            "canto": {
+              "pinyin": "Gùjéunggùng",
+              "characters": "姑丈公",
+              "audio": "url"
+            },
+            "mando": {
+              "pinyin": "Gūzhànggōng",
+              "characters": "姑丈公",
+              "audio": "url"
+            }
+          },
+          "dad": "",
+          "mom": "",
+          "husband": "",
+          "wife": "",
+          "olderbrother": "",
+          "oldersister": "",
+          "youngerbrother": "",
+          "youngersister": "",
+          "son": "",
+          "daughter": ""
+        },
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "youngerbrother": {
+        "names": {
+          "canto": {
+            "pinyin": "Sūkgōng",
+            "characters": "叔公",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Shūgōng",
+            "characters": "叔公",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": {
+          "names": {
+            "canto": {
+              "pinyin": "Sūkpó",
+              "characters": "叔婆",
+              "audio": "url"
+            },
+            "mando": {
+              "pinyin": "Shūpó",
+              "characters": "叔婆",
+              "audio": "url"
+            }
+          },
+          "dad": "",
+          "mom": "",
+          "husband": "",
+          "wife": "",
+          "olderbrother": "",
+          "oldersister": "",
+          "youngerbrother": "",
+          "youngersister": "",
+          "son": "",
+          "daughter": ""
+        },
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "youngersister": {
+        "names": {
+          "canto": {
+            "pinyin": "Gupo",
+            "characters": "姑婆",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Gūpó",
+            "characters": "姑婆",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": {
+          "names": {
+            "canto": {
+              "pinyin": "Gùjéunggùng",
+              "characters": "姑丈公",
+              "audio": "url"
+            },
+            "mando": {
+              "pinyin": "Gūzhànggōng",
+              "characters": "姑丈公",
+              "audio": "url"
+            }
+          },
+          "dad": "",
+          "mom": "",
+          "husband": "",
+          "wife": "",
+          "olderbrother": "",
+          "oldersister": "",
+          "youngerbrother": "",
+          "youngersister": "",
+          "son": "",
+          "daughter": ""
+        },
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "son": "",
+      "daughter": ""
+    },
+    "mom": {
+      "names": {
+        "canto": {
+          "pinyin": "Màhmàh",
+          "characters": "嫲嫲",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Nǎinai",
+          "characters": "奶奶",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "husband": "",
+    "wife": "",
+    "olderbrother": {
+      "names": {
+        "canto": {
+          "pinyin": "Abaak",
+          "characters": "阿伯",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Bóbo",
+          "characters": "伯伯",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": {
+        "names": {
+          "canto": {
+            "pinyin": "Baakleùhng",
+            "characters": "伯娘",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Bómǔ",
+            "characters": "伯母",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": {
+        "names": {
+          "canto": {
+            "pinyin": "Tòhngagō or Tòhngsailóu",
+            "characters": "堂阿哥 or 堂細佬",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Tánggē or Tángdì",
+            "characters": "堂哥 or 堂弟",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "daughter": {
+        "names": {
+          "canto": {
+            "pinyin": "Tòhnggājè or Tòhngsaimúi",
+            "characters": "堂家姐 or 堂細妹",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Tángjiě or Tángmèi",
+            "characters": "堂姐 or 堂妹",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      }
+    },
+    "oldersister": {
+      "names": {
+        "canto": {
+          "pinyin": "Gūmà",
+          "characters": "姑媽",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Gūmā",
+          "characters": "姑妈",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": {
+        "names": {
+          "canto": {
+            "pinyin": "Gùjéung",
+            "characters": "姑丈",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Gūfū",
+            "characters": "姑夫",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": {
+        "names": {
+          "canto": {
+            "pinyin": "Tòhngagō or Tòhngsailóu",
+            "characters": "堂阿哥 or 堂細佬",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Tánggē or Tángdì",
+            "characters": "堂哥 or 堂弟",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "daughter": {
+        "names": {
+          "canto": {
+            "pinyin": "Tòhnggājè or Tòhngsaimúi",
+            "characters": "堂家姐 or 堂細妹",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Tángjiě or Tángmèi",
+            "characters": "堂姐 or 堂妹",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      }
+    },
+    "youngerbrother": {
+      "names": {
+        "canto": {
+          "pinyin": "Asūk",
+          "characters": "阿叔",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Shūshu",
+          "characters": "叔叔",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": {
+        "names": {
+          "canto": {
+            "pinyin": "Asám",
+            "characters": "阿嬸",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Shěnshěn",
+            "characters": "婶婶",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": {
+        "names": {
+          "canto": {
+            "pinyin": "Tòhngagō or Tòhngsailóu",
+            "characters": "堂阿哥 or 堂細佬",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Tánggē or Tángdì",
+            "characters": "堂哥 or 堂弟",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "daughter": {
+        "names": {
+          "canto": {
+            "pinyin": "Tòhnggājè or Tòhngsaimúi",
+            "characters": "堂家姐 or 堂細妹",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Tángjiě or Tángmèi",
+            "characters": "堂姐 or 堂妹",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      }
+    },
+    "youngersister": {
+      "names": {
+        "canto": {
+          "pinyin": "Gūjè",
+          "characters": "姑姐",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Gūgū",
+          "characters": "姑姑",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": {
+        "names": {
+          "canto": {
+            "pinyin": "Gùjéung",
+            "characters": "姑丈",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Gūfū",
+            "characters": "姑夫",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": {
+        "names": {
+          "canto": {
+            "pinyin": "Tòhngagō or Tòhngsailóu",
+            "characters": "堂阿哥 or 堂細佬",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Tánggē or Tángdì",
+            "characters": "堂哥 or 堂弟",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "daughter": {
+        "names": {
+          "canto": {
+            "pinyin": "Tòhnggājè or Tòhngsaimúi",
+            "characters": "堂家姐 or 堂細妹",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Tángjiě or Tángmèi",
+            "characters": "堂姐 or 堂妹",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      }
+    },
+    "son": "",
+    "daughter": ""
+  },
+  "mom": {
+    "names": {
+      "canto": {
+        "pinyin": "Màhmà",
+        "characters": "媽媽",
+        "audio": "url"
+      },
+      "mando": {
+        "pinyin": "Māmā",
+        "characters": "妈妈",
+        "audio": "url"
+      }
+    },
+    "dad": {
+      "names": {
+        "canto": {
+          "pinyin": "Gùnggùng",
+          "characters": "公公",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Wàigōng",
+          "characters": "外公",
+          "audio": "url"
+        }
+      },
+      "dad": {
+        "names": {
+          "canto": {
+            "pinyin": "Taigùng",
+            "characters": "太公",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Wàizēngzǔfù",
+            "characters": "外曾祖父",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "mom": {
+        "names": {
+          "canto": {
+            "pinyin": "Taipó",
+            "characters": "太婆",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Wàizēngzǔmǔ",
+            "characters": "外曾祖母",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "husband": "",
+      "wife": "",
+      "olderbrother": {
+        "names": {
+          "canto": {
+            "pinyin": "Káuhgōng",
+            "characters": "舅公",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Jiùgōng",
+            "characters": "舅公",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": {
+          "names": {
+            "canto": {
+              "pinyin": "Káuhpó",
+              "characters": "舅婆",
+              "audio": "url"
+            },
+            "mando": {
+              "pinyin": "Jiùpó",
+              "characters": "舅婆",
+              "audio": "url"
+            }
+          },
+          "dad": "",
+          "mom": "",
+          "husband": "",
+          "wife": "",
+          "olderbrother": "",
+          "oldersister": "",
+          "youngerbrother": "",
+          "youngersister": "",
+          "son": "",
+          "daughter": ""
+        },
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "oldersister": {
+        "names": {
+          "canto": {
+            "pinyin": "Yìpó",
+            "characters": "姨婆",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Yípó",
+            "characters": "姨婆",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": {
+          "names": {
+            "canto": {
+              "pinyin": "Yìjéunggùng",
+              "characters": "姨丈公",
+              "audio": "url"
+            },
+            "mando": {
+              "pinyin": "Yízhànggōng",
+              "characters": "姨丈公",
+              "audio": "url"
+            }
+          },
+          "dad": "",
+          "mom": "",
+          "husband": "",
+          "wife": "",
+          "olderbrother": "",
+          "oldersister": "",
+          "youngerbrother": "",
+          "youngersister": "",
+          "son": "",
+          "daughter": ""
+        },
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "youngerbrother": {
+        "names": {
+          "canto": {
+            "pinyin": "Káuhgōng",
+            "characters": "舅公",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Jiùgōng",
+            "characters": "舅公",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": {
+          "names": {
+            "canto": {
+              "pinyin": "Káuhpó",
+              "characters": "舅婆",
+              "audio": "url"
+            },
+            "mando": {
+              "pinyin": "Jiùpó",
+              "characters": "舅婆",
+              "audio": "url"
+            }
+          },
+          "dad": "",
+          "mom": "",
+          "husband": "",
+          "wife": "",
+          "olderbrother": "",
+          "oldersister": "",
+          "youngerbrother": "",
+          "youngersister": "",
+          "son": "",
+          "daughter": ""
+        },
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "youngersister": {
+        "names": {
+          "canto": {
+            "pinyin": "Yìpó",
+            "characters": "姨婆",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Yípó",
+            "characters": "姨婆",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": {
+          "names": {
+            "canto": {
+              "pinyin": "Yìjéunggùng",
+              "characters": "姨丈公",
+              "audio": "url"
+            },
+            "mando": {
+              "pinyin": "Yízhànggōng",
+              "characters": "姨丈公",
+              "audio": "url"
+            }
+          },
+          "dad": "",
+          "mom": "",
+          "husband": "",
+          "wife": "",
+          "olderbrother": "",
+          "oldersister": "",
+          "youngerbrother": "",
+          "youngersister": "",
+          "son": "",
+          "daughter": ""
+        },
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "son": "",
+      "daughter": ""
+    },
+    "mom": {
+      "names": {
+        "canto": {
+          "pinyin": "Pòhpó",
+          "characters": "婆婆",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Wàipó",
+          "characters": "外婆",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "husband": "",
+    "wife": "",
+    "olderbrother": {
+      "names": {
+        "canto": {
+          "pinyin": "Káuhfú",
+          "characters": "舅父",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Jiùjiu",
+          "characters": "舅舅",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": {
+        "names": {
+          "canto": {
+            "pinyin": "Káuhmóuh",
+            "characters": "舅姆",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Jiùmǔ",
+            "characters": "舅母",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": {
+        "names": {
+          "canto": {
+            "pinyin": "Bíugò or Bíudài",
+            "characters": "表哥 or 表弟",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Biǎogē or Biǎodì",
+            "characters": "表哥 or 表弟",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "daughter": {
+        "names": {
+          "canto": {
+            "pinyin": "Bíujé or Bíumúi",
+            "characters": "表姐 or 表妹",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Biǎojiě or Biǎomèi",
+            "characters": "表姐 or 表妹",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      }
+    },
+    "oldersister": {
+      "names": {
+        "canto": {
+          "pinyin": "Yìhmā",
+          "characters": "姨媽",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Yímā",
+          "characters": "姨妈",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": {
+        "names": {
+          "canto": {
+            "pinyin": "Yìhjéung",
+            "characters": "姨丈",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Yízhàng",
+            "characters": "姨丈",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": {
+        "names": {
+          "canto": {
+            "pinyin": "Bíugò or Bíudài",
+            "characters": "表哥 or 表弟",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Biǎogē or Biǎodì",
+            "characters": "表哥 or 表弟",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "daughter": {
+        "names": {
+          "canto": {
+            "pinyin": "Bíujé or Bíumúi",
+            "characters": "表姐 or 表妹",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Biǎojiě or Biǎomèi",
+            "characters": "表姐 or 表妹",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      }
+    },
+    "youngerbrother": {
+      "names": {
+        "canto": {
+          "pinyin": "Káuhfú",
+          "characters": "舅父",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Jiùjiu",
+          "characters": "舅舅",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": {
+        "names": {
+          "canto": {
+            "pinyin": "Káuhmóuh",
+            "characters": "舅姆",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Jiùmǔ",
+            "characters": "舅母",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": {
+        "names": {
+          "canto": {
+            "pinyin": "Bíugò or Bíudài",
+            "characters": "表哥 or 表弟",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Biǎogē or Biǎodì",
+            "characters": "表哥 or 表弟",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "daughter": {
+        "names": {
+          "canto": {
+            "pinyin": "Bíujé or Bíumúi",
+            "characters": "表姐 or 表妹",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Biǎojiě or Biǎomèi",
+            "characters": "表姐 or 表妹",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      }
+    },
+    "youngersister": {
+      "names": {
+        "canto": {
+          "pinyin": "Ayì",
+          "characters": "阿姨",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Āyí",
+          "characters": "阿姨",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": {
+        "names": {
+          "canto": {
+            "pinyin": "Yìhjéung",
+            "characters": "姨丈",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Yízhàng",
+            "characters": "姨丈",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": {
+        "names": {
+          "canto": {
+            "pinyin": "Bíugò or Bíudài",
+            "characters": "表哥 or 表弟",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Biǎogē or Biǎodì",
+            "characters": "表哥 or 表弟",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "daughter": {
+        "names": {
+          "canto": {
+            "pinyin": "Bíujé or Bíumúi",
+            "characters": "表姐 or 表妹",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Biǎojiě or Biǎomèi",
+            "characters": "表姐 or 表妹",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      }
+    },
+    "son": "",
+    "daughter": ""
+  },
+  "husband": {
+    "names": {
+      "canto": {
+        "pinyin": "Sìnsàang",
+        "characters": "先生",
+        "audio": "url"
+      },
+      "mando": {
+        "pinyin": "Lǎogōng",
+        "characters": "老公",
+        "audio": "url"
+      }
+    },
+    "dad": {
+      "names": {
+        "canto": {
+          "pinyin": "Lóuhyèh",
+          "characters": "老爺",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Gōnggong",
+          "characters": "公公",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "mom": {
+      "names": {
+        "canto": {
+          "pinyin": "Nàaihnáai",
+          "characters": "奶奶",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Pópo",
+          "characters": "婆婆",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "husband": "",
+    "wife": "",
+    "olderbrother": {
+      "names": {
+        "canto": {
+          "pinyin": "Daaihbaak",
+          "characters": "大伯",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Dàbó",
+          "characters": "大伯",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "oldersister": {
+      "names": {
+        "canto": {
+          "pinyin": "Gùnāai",
+          "characters": "姑奶",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Dàgū",
+          "characters": "大姑",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "youngerbrother": {
+      "names": {
+        "canto": {
+          "pinyin": "Sūkhjái",
+          "characters": "叔仔",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Xiǎoshū",
+          "characters": "小叔",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "youngersister": {
+      "names": {
+        "canto": {
+          "pinyin": "Gùjái",
+          "characters": "姑仔",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Xiǎogū",
+          "characters": "小姑",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "son": "",
+    "daughter": ""
+  },
+  "wife": {
+    "names": {
+      "canto": {
+        "pinyin": "Taaitáai",
+        "characters": "太太",
+        "audio": "url"
+      },
+      "mando": {
+        "pinyin": "Lǎopó",
+        "characters": "老婆",
+        "audio": "url"
+      }
+    },
+    "dad": {
+      "names": {
+        "canto": {
+          "pinyin": "Ngoihfú",
+          "characters": "外父",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Yuèfù",
+          "characters": "岳父",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "mom": {
+      "names": {
+        "canto": {
+          "pinyin": "Ngoihmóu",
+          "characters": "外母",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Yuèmǔ",
+          "characters": "岳母",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "husband": "",
+    "wife": "",
+    "olderbrother": {
+      "names": {
+        "canto": {
+          "pinyin": "Daaihkáuh",
+          "characters": "大舅",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Dàjiù",
+          "characters": "大舅",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "oldersister": {
+      "names": {
+        "canto": {
+          "pinyin": "Daaihyìh",
+          "characters": "大姨",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Dàyí",
+          "characters": "大姨",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "youngerbrother": {
+      "names": {
+        "canto": {
+          "pinyin": "Káuhjái",
+          "characters": "舅仔",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Xiǎojiù",
+          "characters": "小舅",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "youngersister": {
+      "names": {
+        "canto": {
+          "pinyin": "Yìjái",
+          "characters": "姨仔",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Xiǎoyí",
+          "characters": "小姨",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "son": "",
+    "daughter": ""
+  },
+  "olderbrother": {
+    "names": {
+      "canto": {
+        "pinyin": "Daailóu",
+        "characters": "大佬",
+        "audio": "url"
+      },
+      "mando": {
+        "pinyin": "Gēgē",
+        "characters": "哥哥",
+        "audio": "url"
+      }
+    },
+    "dad": "",
+    "mom": "",
+    "husband": "",
+    "wife": {
+      "names": {
+        "canto": {
+          "pinyin": "Asóu",
+          "characters": "阿嫂",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Sǎozi",
+          "characters": "嫂子",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "olderbrother": "",
+    "oldersister": "",
+    "youngerbrother": "",
+    "youngersister": "",
+    "son": {
+      "names": {
+        "canto": {
+          "pinyin": "Ját",
+          "characters": "侄",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Zhízi",
+          "characters": "侄子",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "daughter": {
+      "names": {
+        "canto": {
+          "pinyin": "Jahtnéui",
+          "characters": "侄女",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Zhínǚ",
+          "characters": "侄女",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    }
+  },
+  "oldersister": {
+    "names": {
+      "canto": {
+        "pinyin": "Gajē",
+        "characters": "家姐",
+        "audio": "url"
+      },
+      "mando": {
+        "pinyin": "Jiějiě",
+        "characters": "姐姐",
+        "audio": "url"
+      }
+    },
+    "dad": "",
+    "mom": "",
+    "husband": {
+      "names": {
+        "canto": {
+          "pinyin": "Jéfù",
+          "characters": "姐夫",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Jiěfū",
+          "characters": "姐夫",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "wife": "",
+    "olderbrother": "",
+    "oldersister": "",
+    "youngerbrother": "",
+    "youngersister": "",
+    "son": {
+      "names": {
+        "canto": {
+          "pinyin": "Ngoihsàng",
+          "characters": "外甥",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Wàishēng",
+          "characters": "外甥",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "daughter": {
+      "names": {
+        "canto": {
+          "pinyin": "Ngoihsàngnéui",
+          "characters": "外甥女",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Wàishēngnǚ",
+          "characters": "外甥女",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    }
+  },
+  "youngerbrother": {
+    "names": {
+      "canto": {
+        "pinyin": "Sailóu",
+        "characters": "細佬",
+        "audio": "url"
+      },
+      "mando": {
+        "pinyin": "Dìdì",
+        "characters": "弟弟",
+        "audio": "url"
+      }
+    },
+    "dad": "",
+    "mom": "",
+    "husband": "",
+    "wife": {
+      "names": {
+        "canto": {
+          "pinyin": "Daihfúh",
+          "characters": "弟婦",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Dìfù",
+          "characters": "弟妇",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "olderbrother": "",
+    "oldersister": "",
+    "youngerbrother": "",
+    "youngersister": "",
+    "son": {
+      "names": {
+        "canto": {
+          "pinyin": "Ját",
+          "characters": "侄",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Zhízi",
+          "characters": "侄子",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "daughter": {
+      "names": {
+        "canto": {
+          "pinyin": "Jahtnéui",
+          "characters": "侄女",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Zhínǚ",
+          "characters": "侄女",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    }
+  },
+  "youngersister": {
+    "names": {
+      "canto": {
+        "pinyin": "Saimúi",
+        "characters": "細妹",
+        "audio": "url"
+      },
+      "mando": {
+        "pinyin": "Mèimei",
+        "characters": "妹妹",
+        "audio": "url"
+      }
+    },
+    "dad": "",
+    "mom": "",
+    "husband": {
+      "names": {
+        "canto": {
+          "pinyin": "Muihfù",
+          "characters": "妹夫",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Mèifū",
+          "characters": "妹夫",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "wife": "",
+    "olderbrother": "",
+    "oldersister": "",
+    "youngerbrother": "",
+    "youngersister": "",
+    "son": {
+      "names": {
+        "canto": {
+          "pinyin": "Ngoihsàng",
+          "characters": "外甥",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Wàishēng",
+          "characters": "外甥",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "daughter": {
+      "names": {
+        "canto": {
+          "pinyin": "Ngoihsàngnéui",
+          "characters": "外甥女",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Wàishēngnǚ",
+          "characters": "外甥女",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    }
+  },
+  "son": {
+    "names": {
+      "canto": {
+        "pinyin": "Jái",
+        "characters": "仔",
+        "audio": "url"
+      },
+      "mando": {
+        "pinyin": "Érzi",
+        "characters": "儿子",
+        "audio": "url"
+      }
+    },
+    "dad": "",
+    "mom": "",
+    "husband": "",
+    "wife": {
+      "names": {
+        "canto": {
+          "pinyin": "Sànpóuh",
+          "characters": "新抱",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Xífù",
+          "characters": "媳妇",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "olderbrother": "",
+    "oldersister": "",
+    "youngerbrother": "",
+    "youngersister": "",
+    "son": {
+      "names": {
+        "canto": {
+          "pinyin": "Syùn",
+          "characters": "孫",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Sūnzi",
+          "characters": "孙子",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": {
+        "names": {
+          "canto": {
+            "pinyin": "Sūnxífù",
+            "characters": "孙媳妇",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Sūnxífù",
+            "characters": "孙媳妇",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": {
+        "names": {
+          "canto": {
+            "pinyin": "Zēngsūnzi",
+            "characters": "曾孙子",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Zēngsūnzi",
+            "characters": "曾孙子",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "daughter": {
+        "names": {
+          "canto": {
+            "pinyin": "Zēngsūnnǚ",
+            "characters": "曾孙女",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Zēngsūnnǚ",
+            "characters": "曾孙女",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      }
+    },
+    "daughter": {
+      "names": {
+        "canto": {
+          "pinyin": "Syùnnéui",
+          "characters": "孫女",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Sūnnǚ",
+          "characters": "孙女",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": {
+        "names": {
+          "canto": {
+            "pinyin": "Sūnnǚxù",
+            "characters": "孙女婿",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Sūnnǚxù",
+            "characters": "孙女婿",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": {
+        "names": {
+          "canto": {
+            "pinyin": "Zēngwàisūnzi",
+            "characters": "曾外孙子",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Zēngwàisūnzi",
+            "characters": "曾外孙子",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "daughter": {
+        "names": {
+          "canto": {
+            "pinyin": "Zēngwàisūnnǚ",
+            "characters": "曾外孙女",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Zēngwàisūnnǚ",
+            "characters": "曾外孙女",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      }
+    }
+  },
+  "daughter": {
+    "names": {
+      "canto": {
+        "pinyin": "Néui",
+        "characters": "女儿",
+        "audio": "url"
+      },
+      "mando": {
+        "pinyin": "Nǚ'ér",
+        "characters": "女儿",
+        "audio": "url"
+      }
+    },
+    "dad": "",
+    "mom": "",
+    "husband": {
+      "names": {
+        "canto": {
+          "pinyin": "Néuihsai",
+          "characters": "女婿",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Nǚxù",
+          "characters": "女婿",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "wife": "",
+    "olderbrother": "",
+    "oldersister": "",
+    "youngerbrother": "",
+    "youngersister": "",
+    "son": {
+      "names": {
+        "canto": {
+          "pinyin": "Ngoihsyùn",
+          "characters": "外孫",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Wàisūnzi",
+          "characters": "外孙子",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": {
+        "names": {
+          "canto": {
+            "pinyin": "Wàisūnxífù",
+            "characters": "外孙媳妇",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Wàisūnxífù",
+            "characters": "外孙媳妇",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": {
+        "names": {
+          "canto": {
+            "pinyin": "Wàizēngsūnzi",
+            "characters": "外曾孙女",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Wàizēngsūnnǚ",
+            "characters": "外曾孙女",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "daughter": {
+        "names": {
+          "canto": {
+            "pinyin": "Wàizēngsūnzi",
+            "characters": "外曾孙女",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Wàizēngsūnnǚ",
+            "characters": "外曾孙女",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      }
+    },
+    "daughter": {
+      "names": {
+        "canto": {
+          "pinyin": "Ngoihsyùnnéui",
+          "characters": "外孫女",
+          "audio": "url"
+        },
+        "mando": {
+          "pinyin": "Wàisūnnǚ",
+          "characters": "外孙女",
+          "audio": "url"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": {
+        "names": {
+          "canto": {
+            "pinyin": "Wàisūnnǚxù",
+            "characters": "外孙女婿",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Wàisūnnǚxù",
+            "characters": "外孙女婿",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": {
+        "names": {
+          "canto": {
+            "pinyin": "Zhòngwàisūnzi",
+            "characters": "重外孙子",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Zhòngwàisūnzi",
+            "characters": "重外孙子",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      },
+      "daughter": {
+        "names": {
+          "canto": {
+            "pinyin": "Zhòngwàisūnnǚ",
+            "characters": "重外孙女",
+            "audio": "url"
+          },
+          "mando": {
+            "pinyin": "Zhòngwàisūnnǚ",
+            "characters": "重外孙女",
+            "audio": "url"
+          }
+        },
+        "dad": "",
+        "mom": "",
+        "husband": "",
+        "wife": "",
+        "olderbrother": "",
+        "oldersister": "",
+        "youngerbrother": "",
+        "youngersister": "",
+        "son": "",
+        "daughter": ""
+      }
+    }
+  }
+}

@@ -1,80 +1,132 @@
 import React, { Component } from 'react';
-import './App.css';
+import './style/App.css';
 import ResultComponent from './components/ResultComponent';
 import KeyPadComponent from "./components/KeyPadComponent";
+import LanguageComponent from "./components/LanguageComponent";
+import { removeRedundantArguments, traverseTree } from './TreeTraversal.js';
+var data = require('./data/familydata.json');
 
 class App extends Component {
     constructor(){
         super();
 
         this.state = {
-            result: ""
+            result: "",
+            printedresult: "",
+            isWaitReset: false,
+            isWaitS: false,
+            language: "mando"
         }
+        console.log(data);
     }
 
     onClick = button => {
 
-        if(button === "="){
+        if (button === "="){
             this.calculate()
         }
-
         else if(button === "C"){
             this.reset()
         }
-        else if(button === "CE"){
-            this.backspace()
+        else if(button === "audio") {
+            this.playAudio()
         }
+        else if(button === "canto") {
+          this.setState({ language: "canto" }, () => {
+            if (this.state.isWaitReset) {
+              console.log(this.state);
+              this.calculate();
+            }
+          } );
 
-        else {
-            this.setState({
-                result: this.state.result + button
-            })
         }
+        else if(button === "mando") {
+          this.setState({ language: "mando" }, () => {
+            if (this.state.isWaitReset) {
+              console.log(this.state);
+              this.calculate();
+            }
+          } );
+
+        }
+        else if (button === "s") {
+            this.setState({
+                  result: this.state.result + "'s ",
+                  printedresult: this.state.printedresult + "'s ",
+                  isWaitS: false
+                })
+       } else {
+
+           var toPrintedResult;
+
+           if (button === "oldersister") {
+                toPrintedResult = this.state.printedresult + "older sister"
+           }
+           else if (button === "youngersister") {
+                toPrintedResult = this.state.printedresult + "younger sister"
+           }
+           else if (button === "olderbrother") {
+                toPrintedResult = this.state.printedresult + "older brother"
+           }
+           else if (button === "youngerbrother") {
+                toPrintedResult = this.state.printedresult + "younger brother"
+           } else {
+                toPrintedResult = this.state.printedresult + button
+           }
+
+           this.setState({
+             result: this.state.result + button,
+             printedresult: toPrintedResult,
+             isWaitS: true
+           })
+
+       }
     };
 
+    playAudio = () => {
+      console.log(this.state.printedresult.url);
+      console.log("playing sound");
+      //placeholder audio right now
+      var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3');
+      audio.play();
+    }
 
     calculate = () => {
-        var checkResult = ''
-        if(this.state.result.includes('--')){
-            checkResult = this.state.result.replace('--','+')
-        }
 
-        else {
-            checkResult = this.state.result
-        }
+        var arg_array = removeRedundantArguments(this.state.result.split("'s "))
+        var result = traverseTree(data, arg_array);
 
         try {
             this.setState({
                 // eslint-disable-next-line
-                result: (eval(checkResult) || "" ) + ""
+                printedresult: result.names[this.state.language],
+                isWaitReset: true
             })
         } catch (e) {
             this.setState({
-                result: "error"
+                printedresult: "Error 🥺",
+                isWaitReset: true
             })
-
         }
     };
 
     reset = () => {
         this.setState({
-            result: ""
-        })
-    };
-
-    backspace = () => {
-        this.setState({
-            result: this.state.result.slice(0, -1)
+            result: "",
+            printedresult: "",
+            isWaitReset: false,
+            isWaitS: false
         })
     };
 
     render() {
         return (
-            <div>
+            <div className="container">
                 <div className="calculator-body">
-                    <h1>Simple Calculator</h1>
-                    <ResultComponent result={this.state.result}/>
-                    <KeyPadComponent onClick={this.onClick}/>
+                    <h1>Chinese Relative Title Calculator</h1>
+                    <LanguageComponent onClick={this.onClick} language={this.state.language}/>
+                    <ResultComponent result={this.state.printedresult}/>
+                    <KeyPadComponent onClick={this.onClick} isWaitReset={this.state.isWaitReset} isWaitS={this.state.isWaitS}/>
                 </div>
             </div>
         );

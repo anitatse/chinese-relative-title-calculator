@@ -1,0 +1,112 @@
+.result {
+  height: 120px;
+  background-color: #bbb;
+  width: 100%;
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+  text-align: right;
+}
+
+.container {
+  max-width: 800px;
+  padding: 10px;
+  margin: auto;
+}
+
+.calculator-body {
+  max-width: 800px;
+}
+
+.button {
+  display: block;
+  background-color: #bbb;
+}
+
+.language {
+  width: 150px;
+  background-color: #ffd6c9;
+  border-radius: 10px;
+  opacity: 0.8;
+  border: 1px solid #6b6b6b;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.language:hover {
+  opacity: 1;
+}
+
+.selectedlanguage {
+  width: 150px;
+  background-color: #ff8e6b;
+  border-radius: 10px;
+  border: 1px solid #6b6b6b;
+  opacity: 0.8;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-family: 'Happy Monkey', cursive;
+  text-align: center;
+  font-size: 45px;
+}
+
+.selectedlanguage:hover {
+  opacity: 1;
+}
+
+button {
+  width: 40%;
+  height: 70px;
+  font-size: 28px;
+  border-radius: 4px;
+  border: 1px solid #6b6b6b;
+  opacity: 1;
+  background-color: #ebebeb;
+}
+
+button:hover {
+  opacity: 0.8;
+  border: 1px solid #292929;
+}
+
+.fnButton {
+  width: 20%;
+  background-color: #ffd591;
+  border: 1px solid #6b6b6b;
+}
+
+.fnButton:disabled {
+  background-color: #d4c0a1;
+  border: 1px solid #a1a1a1;
+}
+
+.fnButton:disabled:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+   button {
+     font-size: 20px;
+   }
+
+   .result p {
+     font-size: 30px;
+   }
+
+   .language {
+     font-size: 20px;
+   }
+
+   .selectedlanguage {
+     font-size: 20px;
+   }
+
+   h1 {
+     font-size: 40px;
+   }
+}
