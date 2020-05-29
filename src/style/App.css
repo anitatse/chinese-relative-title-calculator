@@ -10,6 +10,13 @@
   text-align: right;
 }
 
+h1 {
+  font-family: 'Happy Monkey', cursive;
+  text-align: center;
+  font-size: 45px;
+  margin: 20px;
+}
+
 .container {
   max-width: 800px;
   padding: 10px;
@@ -20,18 +27,12 @@
   max-width: 800px;
 }
 
-.button {
-  display: block;
-  background-color: #bbb;
-}
-
 .language {
   width: 150px;
   background-color: #ffd6c9;
   border-radius: 10px;
-  opacity: 0.8;
-  border: 1px solid #6b6b6b;
-  font-size: 28px;
+  opacity: 0.9;
+  font-size: 26px;
   margin-bottom: 5px;
 }
 
@@ -43,55 +44,58 @@
   width: 150px;
   background-color: #ff8e6b;
   border-radius: 10px;
-  border: 1px solid #6b6b6b;
-  opacity: 0.8;
-  font-size: 28px;
+  opacity: 0.9;
+  font-size: 26px;
   margin-bottom: 5px;
-}
-
-h1 {
-  font-family: 'Happy Monkey', cursive;
-  text-align: center;
-  font-size: 45px;
 }
 
 .selectedlanguage:hover {
   opacity: 1;
 }
 
+.button {
+  display: block;
+  background-color: #bbb;
+}
+
 button {
   width: 40%;
   height: 70px;
   font-size: 28px;
-  border-radius: 4px;
+  border-radius: 0px;
   border: 1px solid #6b6b6b;
   opacity: 1;
   background-color: #ebebeb;
 }
 
 button:hover {
-  opacity: 0.8;
+  opacity: 0.9;
   border: 1px solid #292929;
+}
+
+button:disabled {
+  opacity: 0.65;
+  border: 1px solid #a1a1a1;
+}
+
+button:disabled:hover {
+  opacity: 0.65;
 }
 
 .fnButton {
   width: 20%;
   background-color: #ffd591;
-  border: 1px solid #6b6b6b;
 }
 
-.fnButton:disabled {
-  background-color: #d4c0a1;
-  border: 1px solid #a1a1a1;
+button:focus {
+  outline: none;
+  border: 2px solid #303030;
 }
 
-.fnButton:disabled:hover {
-  opacity: 1;
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
    button {
-     font-size: 20px;
+     font-size: 15px;
+     line-height: 1;
    }
 
    .result p {

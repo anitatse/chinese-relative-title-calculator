@@ -2,52 +2,44 @@
   "names": {
     "canto": {
       "pinyin": "ngo",
-      "characters": "我",
-      "audio": "url"
+      "characters": "我"
     },
     "mando": {
       "pinyin": "Wǒ",
-      "characters": "我",
-      "audio": "url"
+      "characters": "我"
     }
   },
   "dad": {
     "names": {
       "canto": {
         "pinyin": "Bàhbā",
-        "characters": "爸爸",
-        "audio": "url"
+        "characters": "爸爸"
       },
       "mando": {
         "pinyin": "Bàbà",
-        "characters": "爸爸",
-        "audio": "url"
+        "characters": "爸爸"
       }
     },
     "dad": {
       "names": {
         "canto": {
           "pinyin": "Yèhyé",
-          "characters": "爺爺",
-          "audio": "url"
+          "characters": "爺爺"
         },
         "mando": {
           "pinyin": "Yéyé",
-          "characters": "爷爷",
-          "audio": "url"
+          "characters": "爷爷"
         }
       },
       "dad": {
         "names": {
           "canto": {
             "pinyin": "Taiyé",
-            "characters": "太爺",
-            "audio": "url"
+            "characters": "太爺"
           },
           "mando": {
             "pinyin": "Zēngzǔfù",
-            "characters": "曾祖父",
-            "audio": "url"
+            "characters": "曾祖父"
           }
         },
         "dad": "",
@@ -65,13 +57,11 @@
         "names": {
           "canto": {
             "pinyin": "Taimàh",
-            "characters": "太嫲",
-            "audio": "url"
+            "characters": "太嫲"
           },
           "mando": {
             "pinyin": "Zēngzǔmǔ",
-            "characters": "曾祖母",
-            "audio": "url"
+            "characters": "曾祖母"
           }
         },
         "dad": "",
@@ -91,13 +81,11 @@
         "names": {
           "canto": {
             "pinyin": "Baakgōng",
-            "characters": "伯公",
-            "audio": "url"
+            "characters": "伯公"
           },
           "mando": {
             "pinyin": "Bógōng",
-            "characters": "伯公",
-            "audio": "url"
+            "characters": "伯公"
           }
         },
         "dad": "",
@@ -107,13 +95,11 @@
           "names": {
             "canto": {
               "pinyin": "Baakpó",
-              "characters": "伯婆",
-              "audio": "url"
+              "characters": "伯婆"
             },
             "mando": {
               "pinyin": "Bópó",
-              "characters": "伯婆",
-              "audio": "url"
+              "characters": "伯婆"
             }
           },
           "dad": "",
@@ -138,13 +124,11 @@
         "names": {
           "canto": {
             "pinyin": "Gupo",
-            "characters": "姑婆",
-            "audio": "url"
+            "characters": "姑婆"
           },
           "mando": {
             "pinyin": "Gūpó",
-            "characters": "姑婆",
-            "audio": "url"
+            "characters": "姑婆"
           }
         },
         "dad": "",
@@ -153,13 +137,11 @@
           "names": {
             "canto": {
               "pinyin": "Gùjéunggùng",
-              "characters": "姑丈公",
-              "audio": "url"
+              "characters": "姑丈公"
             },
             "mando": {
               "pinyin": "Gūzhànggōng",
-              "characters": "姑丈公",
-              "audio": "url"
+              "characters": "姑丈公"
             }
           },
           "dad": "",
@@ -185,13 +167,11 @@
         "names": {
           "canto": {
             "pinyin": "Sūkgōng",
-            "characters": "叔公",
-            "audio": "url"
+            "characters": "叔公"
           },
           "mando": {
             "pinyin": "Shūgōng",
-            "characters": "叔公",
-            "audio": "url"
+            "characters": "叔公"
           }
         },
         "dad": "",
@@ -201,13 +181,11 @@
           "names": {
             "canto": {
               "pinyin": "Sūkpó",
-              "characters": "叔婆",
-              "audio": "url"
+              "characters": "叔婆"
             },
             "mando": {
               "pinyin": "Shūpó",
-              "characters": "叔婆",
-              "audio": "url"
+              "characters": "叔婆"
             }
           },
           "dad": "",
@@ -232,13 +210,11 @@
         "names": {
           "canto": {
             "pinyin": "Gupo",
-            "characters": "姑婆",
-            "audio": "url"
+            "characters": "姑婆"
           },
           "mando": {
             "pinyin": "Gūpó",
-            "characters": "姑婆",
-            "audio": "url"
+            "characters": "姑婆"
           }
         },
         "dad": "",
@@ -247,13 +223,11 @@
           "names": {
             "canto": {
               "pinyin": "Gùjéunggùng",
-              "characters": "姑丈公",
-              "audio": "url"
+              "characters": "姑丈公"
             },
             "mando": {
               "pinyin": "Gūzhànggōng",
-              "characters": "姑丈公",
-              "audio": "url"
+              "characters": "姑丈公"
             }
           },
           "dad": "",
@@ -282,13 +256,11 @@
       "names": {
         "canto": {
           "pinyin": "Màhmàh",
-          "characters": "嫲嫲",
-          "audio": "url"
+          "characters": "嫲嫲"
         },
         "mando": {
           "pinyin": "Nǎinai",
-          "characters": "奶奶",
-          "audio": "url"
+          "characters": "奶奶"
         }
       },
       "dad": "",
@@ -308,13 +280,11 @@
       "names": {
         "canto": {
           "pinyin": "Abaak",
-          "characters": "阿伯",
-          "audio": "url"
+          "characters": "阿伯"
         },
         "mando": {
           "pinyin": "Bóbo",
-          "characters": "伯伯",
-          "audio": "url"
+          "characters": "伯伯"
         }
       },
       "dad": "",
@@ -324,13 +294,11 @@
         "names": {
           "canto": {
             "pinyin": "Baakleùhng",
-            "characters": "伯娘",
-            "audio": "url"
+            "characters": "伯娘"
           },
           "mando": {
             "pinyin": "Bómǔ",
-            "characters": "伯母",
-            "audio": "url"
+            "characters": "伯母"
           }
         },
         "dad": "",
@@ -352,13 +320,11 @@
         "names": {
           "canto": {
             "pinyin": "Tòhngagō or Tòhngsailóu",
-            "characters": "堂阿哥 or 堂細佬",
-            "audio": "url"
+            "characters": "堂阿哥 or 堂細佬"
           },
           "mando": {
             "pinyin": "Tánggē or Tángdì",
-            "characters": "堂哥 or 堂弟",
-            "audio": "url"
+            "characters": "堂哥 or 堂弟"
           }
         },
         "dad": "",
@@ -376,13 +342,11 @@
         "names": {
           "canto": {
             "pinyin": "Tòhnggājè or Tòhngsaimúi",
-            "characters": "堂家姐 or 堂細妹",
-            "audio": "url"
+            "characters": "堂家姐 or 堂細妹"
           },
           "mando": {
             "pinyin": "Tángjiě or Tángmèi",
-            "characters": "堂姐 or 堂妹",
-            "audio": "url"
+            "characters": "堂姐 or 堂妹"
           }
         },
         "dad": "",
@@ -401,13 +365,11 @@
       "names": {
         "canto": {
           "pinyin": "Gūmà",
-          "characters": "姑媽",
-          "audio": "url"
+          "characters": "姑媽"
         },
         "mando": {
           "pinyin": "Gūmā",
-          "characters": "姑妈",
-          "audio": "url"
+          "characters": "姑妈"
         }
       },
       "dad": "",
@@ -416,13 +378,11 @@
         "names": {
           "canto": {
             "pinyin": "Gùjéung",
-            "characters": "姑丈",
-            "audio": "url"
+            "characters": "姑丈"
           },
           "mando": {
             "pinyin": "Gūfū",
-            "characters": "姑夫",
-            "audio": "url"
+            "characters": "姑夫"
           }
         },
         "dad": "",
@@ -445,13 +405,11 @@
         "names": {
           "canto": {
             "pinyin": "Tòhngagō or Tòhngsailóu",
-            "characters": "堂阿哥 or 堂細佬",
-            "audio": "url"
+            "characters": "堂阿哥 or 堂細佬"
           },
           "mando": {
             "pinyin": "Tánggē or Tángdì",
-            "characters": "堂哥 or 堂弟",
-            "audio": "url"
+            "characters": "堂哥 or 堂弟"
           }
         },
         "dad": "",
@@ -469,13 +427,11 @@
         "names": {
           "canto": {
             "pinyin": "Tòhnggājè or Tòhngsaimúi",
-            "characters": "堂家姐 or 堂細妹",
-            "audio": "url"
+            "characters": "堂家姐 or 堂細妹"
           },
           "mando": {
             "pinyin": "Tángjiě or Tángmèi",
-            "characters": "堂姐 or 堂妹",
-            "audio": "url"
+            "characters": "堂姐 or 堂妹"
           }
         },
         "dad": "",
@@ -494,13 +450,11 @@
       "names": {
         "canto": {
           "pinyin": "Asūk",
-          "characters": "阿叔",
-          "audio": "url"
+          "characters": "阿叔"
         },
         "mando": {
           "pinyin": "Shūshu",
-          "characters": "叔叔",
-          "audio": "url"
+          "characters": "叔叔"
         }
       },
       "dad": "",
@@ -510,13 +464,11 @@
         "names": {
           "canto": {
             "pinyin": "Asám",
-            "characters": "阿嬸",
-            "audio": "url"
+            "characters": "阿嬸"
           },
           "mando": {
             "pinyin": "Shěnshěn",
-            "characters": "婶婶",
-            "audio": "url"
+            "characters": "婶婶"
           }
         },
         "dad": "",
@@ -538,13 +490,11 @@
         "names": {
           "canto": {
             "pinyin": "Tòhngagō or Tòhngsailóu",
-            "characters": "堂阿哥 or 堂細佬",
-            "audio": "url"
+            "characters": "堂阿哥 or 堂細佬"
           },
           "mando": {
             "pinyin": "Tánggē or Tángdì",
-            "characters": "堂哥 or 堂弟",
-            "audio": "url"
+            "characters": "堂哥 or 堂弟"
           }
         },
         "dad": "",
@@ -562,13 +512,11 @@
         "names": {
           "canto": {
             "pinyin": "Tòhnggājè or Tòhngsaimúi",
-            "characters": "堂家姐 or 堂細妹",
-            "audio": "url"
+            "characters": "堂家姐 or 堂細妹"
           },
           "mando": {
             "pinyin": "Tángjiě or Tángmèi",
-            "characters": "堂姐 or 堂妹",
-            "audio": "url"
+            "characters": "堂姐 or 堂妹"
           }
         },
         "dad": "",
@@ -587,13 +535,11 @@
       "names": {
         "canto": {
           "pinyin": "Gūjè",
-          "characters": "姑姐",
-          "audio": "url"
+          "characters": "姑姐"
         },
         "mando": {
           "pinyin": "Gūgū",
-          "characters": "姑姑",
-          "audio": "url"
+          "characters": "姑姑"
         }
       },
       "dad": "",
@@ -602,13 +548,11 @@
         "names": {
           "canto": {
             "pinyin": "Gùjéung",
-            "characters": "姑丈",
-            "audio": "url"
+            "characters": "姑丈"
           },
           "mando": {
             "pinyin": "Gūfū",
-            "characters": "姑夫",
-            "audio": "url"
+            "characters": "姑夫"
           }
         },
         "dad": "",
@@ -631,13 +575,11 @@
         "names": {
           "canto": {
             "pinyin": "Tòhngagō or Tòhngsailóu",
-            "characters": "堂阿哥 or 堂細佬",
-            "audio": "url"
+            "characters": "堂阿哥 or 堂細佬"
           },
           "mando": {
             "pinyin": "Tánggē or Tángdì",
-            "characters": "堂哥 or 堂弟",
-            "audio": "url"
+            "characters": "堂哥 or 堂弟"
           }
         },
         "dad": "",
@@ -655,13 +597,11 @@
         "names": {
           "canto": {
             "pinyin": "Tòhnggājè or Tòhngsaimúi",
-            "characters": "堂家姐 or 堂細妹",
-            "audio": "url"
+            "characters": "堂家姐 or 堂細妹"
           },
           "mando": {
             "pinyin": "Tángjiě or Tángmèi",
-            "characters": "堂姐 or 堂妹",
-            "audio": "url"
+            "characters": "堂姐 or 堂妹"
           }
         },
         "dad": "",
@@ -683,39 +623,33 @@
     "names": {
       "canto": {
         "pinyin": "Màhmà",
-        "characters": "媽媽",
-        "audio": "url"
+        "characters": "媽媽"
       },
       "mando": {
         "pinyin": "Māmā",
-        "characters": "妈妈",
-        "audio": "url"
+        "characters": "妈妈"
       }
     },
     "dad": {
       "names": {
         "canto": {
           "pinyin": "Gùnggùng",
-          "characters": "公公",
-          "audio": "url"
+          "characters": "公公"
         },
         "mando": {
           "pinyin": "Wàigōng",
-          "characters": "外公",
-          "audio": "url"
+          "characters": "外公"
         }
       },
       "dad": {
         "names": {
           "canto": {
             "pinyin": "Taigùng",
-            "characters": "太公",
-            "audio": "url"
+            "characters": "太公"
           },
           "mando": {
             "pinyin": "Wàizēngzǔfù",
-            "characters": "外曾祖父",
-            "audio": "url"
+            "characters": "外曾祖父"
           }
         },
         "dad": "",
@@ -733,13 +667,11 @@
         "names": {
           "canto": {
             "pinyin": "Taipó",
-            "characters": "太婆",
-            "audio": "url"
+            "characters": "太婆"
           },
           "mando": {
             "pinyin": "Wàizēngzǔmǔ",
-            "characters": "外曾祖母",
-            "audio": "url"
+            "characters": "外曾祖母"
           }
         },
         "dad": "",
@@ -759,13 +691,11 @@
         "names": {
           "canto": {
             "pinyin": "Káuhgōng",
-            "characters": "舅公",
-            "audio": "url"
+            "characters": "舅公"
           },
           "mando": {
             "pinyin": "Jiùgōng",
-            "characters": "舅公",
-            "audio": "url"
+            "characters": "舅公"
           }
         },
         "dad": "",
@@ -775,13 +705,11 @@
           "names": {
             "canto": {
               "pinyin": "Káuhpó",
-              "characters": "舅婆",
-              "audio": "url"
+              "characters": "舅婆"
             },
             "mando": {
               "pinyin": "Jiùpó",
-              "characters": "舅婆",
-              "audio": "url"
+              "characters": "舅婆"
             }
           },
           "dad": "",
@@ -806,13 +734,11 @@
         "names": {
           "canto": {
             "pinyin": "Yìpó",
-            "characters": "姨婆",
-            "audio": "url"
+            "characters": "姨婆"
           },
           "mando": {
             "pinyin": "Yípó",
-            "characters": "姨婆",
-            "audio": "url"
+            "characters": "姨婆"
           }
         },
         "dad": "",
@@ -821,13 +747,11 @@
           "names": {
             "canto": {
               "pinyin": "Yìjéunggùng",
-              "characters": "姨丈公",
-              "audio": "url"
+              "characters": "姨丈公"
             },
             "mando": {
               "pinyin": "Yízhànggōng",
-              "characters": "姨丈公",
-              "audio": "url"
+              "characters": "姨丈公"
             }
           },
           "dad": "",
@@ -853,13 +777,11 @@
         "names": {
           "canto": {
             "pinyin": "Káuhgōng",
-            "characters": "舅公",
-            "audio": "url"
+            "characters": "舅公"
           },
           "mando": {
             "pinyin": "Jiùgōng",
-            "characters": "舅公",
-            "audio": "url"
+            "characters": "舅公"
           }
         },
         "dad": "",
@@ -869,13 +791,11 @@
           "names": {
             "canto": {
               "pinyin": "Káuhpó",
-              "characters": "舅婆",
-              "audio": "url"
+              "characters": "舅婆"
             },
             "mando": {
               "pinyin": "Jiùpó",
-              "characters": "舅婆",
-              "audio": "url"
+              "characters": "舅婆"
             }
           },
           "dad": "",
@@ -900,13 +820,11 @@
         "names": {
           "canto": {
             "pinyin": "Yìpó",
-            "characters": "姨婆",
-            "audio": "url"
+            "characters": "姨婆"
           },
           "mando": {
             "pinyin": "Yípó",
-            "characters": "姨婆",
-            "audio": "url"
+            "characters": "姨婆"
           }
         },
         "dad": "",
@@ -915,13 +833,11 @@
           "names": {
             "canto": {
               "pinyin": "Yìjéunggùng",
-              "characters": "姨丈公",
-              "audio": "url"
+              "characters": "姨丈公"
             },
             "mando": {
               "pinyin": "Yízhànggōng",
-              "characters": "姨丈公",
-              "audio": "url"
+              "characters": "姨丈公"
             }
           },
           "dad": "",
@@ -950,13 +866,11 @@
       "names": {
         "canto": {
           "pinyin": "Pòhpó",
-          "characters": "婆婆",
-          "audio": "url"
+          "characters": "婆婆"
         },
         "mando": {
           "pinyin": "Wàipó",
-          "characters": "外婆",
-          "audio": "url"
+          "characters": "外婆"
         }
       },
       "dad": "",
@@ -976,13 +890,11 @@
       "names": {
         "canto": {
           "pinyin": "Káuhfú",
-          "characters": "舅父",
-          "audio": "url"
+          "characters": "舅父"
         },
         "mando": {
           "pinyin": "Jiùjiu",
-          "characters": "舅舅",
-          "audio": "url"
+          "characters": "舅舅"
         }
       },
       "dad": "",
@@ -992,13 +904,11 @@
         "names": {
           "canto": {
             "pinyin": "Káuhmóuh",
-            "characters": "舅姆",
-            "audio": "url"
+            "characters": "舅姆"
           },
           "mando": {
             "pinyin": "Jiùmǔ",
-            "characters": "舅母",
-            "audio": "url"
+            "characters": "舅母"
           }
         },
         "dad": "",
@@ -1020,13 +930,11 @@
         "names": {
           "canto": {
             "pinyin": "Bíugò or Bíudài",
-            "characters": "表哥 or 表弟",
-            "audio": "url"
+            "characters": "表哥 or 表弟"
           },
           "mando": {
             "pinyin": "Biǎogē or Biǎodì",
-            "characters": "表哥 or 表弟",
-            "audio": "url"
+            "characters": "表哥 or 表弟"
           }
         },
         "dad": "",
@@ -1044,13 +952,11 @@
         "names": {
           "canto": {
             "pinyin": "Bíujé or Bíumúi",
-            "characters": "表姐 or 表妹",
-            "audio": "url"
+            "characters": "表姐 or 表妹"
           },
           "mando": {
             "pinyin": "Biǎojiě or Biǎomèi",
-            "characters": "表姐 or 表妹",
-            "audio": "url"
+            "characters": "表姐 or 表妹"
           }
         },
         "dad": "",
@@ -1069,13 +975,11 @@
       "names": {
         "canto": {
           "pinyin": "Yìhmā",
-          "characters": "姨媽",
-          "audio": "url"
+          "characters": "姨媽"
         },
         "mando": {
           "pinyin": "Yímā",
-          "characters": "姨妈",
-          "audio": "url"
+          "characters": "姨妈"
         }
       },
       "dad": "",
@@ -1084,13 +988,11 @@
         "names": {
           "canto": {
             "pinyin": "Yìhjéung",
-            "characters": "姨丈",
-            "audio": "url"
+            "characters": "姨丈"
           },
           "mando": {
             "pinyin": "Yízhàng",
-            "characters": "姨丈",
-            "audio": "url"
+            "characters": "姨丈"
           }
         },
         "dad": "",
@@ -1113,13 +1015,11 @@
         "names": {
           "canto": {
             "pinyin": "Bíugò or Bíudài",
-            "characters": "表哥 or 表弟",
-            "audio": "url"
+            "characters": "表哥 or 表弟"
           },
           "mando": {
             "pinyin": "Biǎogē or Biǎodì",
-            "characters": "表哥 or 表弟",
-            "audio": "url"
+            "characters": "表哥 or 表弟"
           }
         },
         "dad": "",
@@ -1137,13 +1037,11 @@
         "names": {
           "canto": {
             "pinyin": "Bíujé or Bíumúi",
-            "characters": "表姐 or 表妹",
-            "audio": "url"
+            "characters": "表姐 or 表妹"
           },
           "mando": {
             "pinyin": "Biǎojiě or Biǎomèi",
-            "characters": "表姐 or 表妹",
-            "audio": "url"
+            "characters": "表姐 or 表妹"
           }
         },
         "dad": "",
@@ -1162,13 +1060,11 @@
       "names": {
         "canto": {
           "pinyin": "Káuhfú",
-          "characters": "舅父",
-          "audio": "url"
+          "characters": "舅父"
         },
         "mando": {
           "pinyin": "Jiùjiu",
-          "characters": "舅舅",
-          "audio": "url"
+          "characters": "舅舅"
         }
       },
       "dad": "",
@@ -1178,13 +1074,11 @@
         "names": {
           "canto": {
             "pinyin": "Káuhmóuh",
-            "characters": "舅姆",
-            "audio": "url"
+            "characters": "舅姆"
           },
           "mando": {
             "pinyin": "Jiùmǔ",
-            "characters": "舅母",
-            "audio": "url"
+            "characters": "舅母"
           }
         },
         "dad": "",
@@ -1206,13 +1100,11 @@
         "names": {
           "canto": {
             "pinyin": "Bíugò or Bíudài",
-            "characters": "表哥 or 表弟",
-            "audio": "url"
+            "characters": "表哥 or 表弟"
           },
           "mando": {
             "pinyin": "Biǎogē or Biǎodì",
-            "characters": "表哥 or 表弟",
-            "audio": "url"
+            "characters": "表哥 or 表弟"
           }
         },
         "dad": "",
@@ -1230,13 +1122,11 @@
         "names": {
           "canto": {
             "pinyin": "Bíujé or Bíumúi",
-            "characters": "表姐 or 表妹",
-            "audio": "url"
+            "characters": "表姐 or 表妹"
           },
           "mando": {
             "pinyin": "Biǎojiě or Biǎomèi",
-            "characters": "表姐 or 表妹",
-            "audio": "url"
+            "characters": "表姐 or 表妹"
           }
         },
         "dad": "",
@@ -1255,13 +1145,11 @@
       "names": {
         "canto": {
           "pinyin": "Ayì",
-          "characters": "阿姨",
-          "audio": "url"
+          "characters": "阿姨"
         },
         "mando": {
           "pinyin": "Āyí",
-          "characters": "阿姨",
-          "audio": "url"
+          "characters": "阿姨"
         }
       },
       "dad": "",
@@ -1270,13 +1158,11 @@
         "names": {
           "canto": {
             "pinyin": "Yìhjéung",
-            "characters": "姨丈",
-            "audio": "url"
+            "characters": "姨丈"
           },
           "mando": {
             "pinyin": "Yízhàng",
-            "characters": "姨丈",
-            "audio": "url"
+            "characters": "姨丈"
           }
         },
         "dad": "",
@@ -1299,13 +1185,11 @@
         "names": {
           "canto": {
             "pinyin": "Bíugò or Bíudài",
-            "characters": "表哥 or 表弟",
-            "audio": "url"
+            "characters": "表哥 or 表弟"
           },
           "mando": {
             "pinyin": "Biǎogē or Biǎodì",
-            "characters": "表哥 or 表弟",
-            "audio": "url"
+            "characters": "表哥 or 表弟"
           }
         },
         "dad": "",
@@ -1323,13 +1207,11 @@
         "names": {
           "canto": {
             "pinyin": "Bíujé or Bíumúi",
-            "characters": "表姐 or 表妹",
-            "audio": "url"
+            "characters": "表姐 or 表妹"
           },
           "mando": {
             "pinyin": "Biǎojiě or Biǎomèi",
-            "characters": "表姐 or 表妹",
-            "audio": "url"
+            "characters": "表姐 or 表妹"
           }
         },
         "dad": "",
@@ -1351,26 +1233,22 @@
     "names": {
       "canto": {
         "pinyin": "Sìnsàang",
-        "characters": "先生",
-        "audio": "url"
+        "characters": "先生"
       },
       "mando": {
         "pinyin": "Lǎogōng",
-        "characters": "老公",
-        "audio": "url"
+        "characters": "老公"
       }
     },
     "dad": {
       "names": {
         "canto": {
           "pinyin": "Lóuhyèh",
-          "characters": "老爺",
-          "audio": "url"
+          "characters": "老爺"
         },
         "mando": {
           "pinyin": "Gōnggong",
-          "characters": "公公",
-          "audio": "url"
+          "characters": "公公"
         }
       },
       "dad": "",
@@ -1388,13 +1266,11 @@
       "names": {
         "canto": {
           "pinyin": "Nàaihnáai",
-          "characters": "奶奶",
-          "audio": "url"
+          "characters": "奶奶"
         },
         "mando": {
           "pinyin": "Pópo",
-          "characters": "婆婆",
-          "audio": "url"
+          "characters": "婆婆"
         }
       },
       "dad": "",
@@ -1414,13 +1290,11 @@
       "names": {
         "canto": {
           "pinyin": "Daaihbaak",
-          "characters": "大伯",
-          "audio": "url"
+          "characters": "大伯"
         },
         "mando": {
           "pinyin": "Dàbó",
-          "characters": "大伯",
-          "audio": "url"
+          "characters": "大伯"
         }
       },
       "dad": "",
@@ -1438,13 +1312,11 @@
       "names": {
         "canto": {
           "pinyin": "Gùnāai",
-          "characters": "姑奶",
-          "audio": "url"
+          "characters": "姑奶"
         },
         "mando": {
           "pinyin": "Dàgū",
-          "characters": "大姑",
-          "audio": "url"
+          "characters": "大姑"
         }
       },
       "dad": "",
@@ -1462,13 +1334,11 @@
       "names": {
         "canto": {
           "pinyin": "Sūkhjái",
-          "characters": "叔仔",
-          "audio": "url"
+          "characters": "叔仔"
         },
         "mando": {
           "pinyin": "Xiǎoshū",
-          "characters": "小叔",
-          "audio": "url"
+          "characters": "小叔"
         }
       },
       "dad": "",
@@ -1486,13 +1356,11 @@
       "names": {
         "canto": {
           "pinyin": "Gùjái",
-          "characters": "姑仔",
-          "audio": "url"
+          "characters": "姑仔"
         },
         "mando": {
           "pinyin": "Xiǎogū",
-          "characters": "小姑",
-          "audio": "url"
+          "characters": "小姑"
         }
       },
       "dad": "",
@@ -1513,26 +1381,22 @@
     "names": {
       "canto": {
         "pinyin": "Taaitáai",
-        "characters": "太太",
-        "audio": "url"
+        "characters": "太太"
       },
       "mando": {
         "pinyin": "Lǎopó",
-        "characters": "老婆",
-        "audio": "url"
+        "characters": "老婆"
       }
     },
     "dad": {
       "names": {
         "canto": {
           "pinyin": "Ngoihfú",
-          "characters": "外父",
-          "audio": "url"
+          "characters": "外父"
         },
         "mando": {
           "pinyin": "Yuèfù",
-          "characters": "岳父",
-          "audio": "url"
+          "characters": "岳父"
         }
       },
       "dad": "",
@@ -1550,13 +1414,11 @@
       "names": {
         "canto": {
           "pinyin": "Ngoihmóu",
-          "characters": "外母",
-          "audio": "url"
+          "characters": "外母"
         },
         "mando": {
           "pinyin": "Yuèmǔ",
-          "characters": "岳母",
-          "audio": "url"
+          "characters": "岳母"
         }
       },
       "dad": "",
@@ -1576,13 +1438,11 @@
       "names": {
         "canto": {
           "pinyin": "Daaihkáuh",
-          "characters": "大舅",
-          "audio": "url"
+          "characters": "大舅"
         },
         "mando": {
           "pinyin": "Dàjiù",
-          "characters": "大舅",
-          "audio": "url"
+          "characters": "大舅"
         }
       },
       "dad": "",
@@ -1600,13 +1460,11 @@
       "names": {
         "canto": {
           "pinyin": "Daaihyìh",
-          "characters": "大姨",
-          "audio": "url"
+          "characters": "大姨"
         },
         "mando": {
           "pinyin": "Dàyí",
-          "characters": "大姨",
-          "audio": "url"
+          "characters": "大姨"
         }
       },
       "dad": "",
@@ -1624,13 +1482,11 @@
       "names": {
         "canto": {
           "pinyin": "Káuhjái",
-          "characters": "舅仔",
-          "audio": "url"
+          "characters": "舅仔"
         },
         "mando": {
           "pinyin": "Xiǎojiù",
-          "characters": "小舅",
-          "audio": "url"
+          "characters": "小舅"
         }
       },
       "dad": "",
@@ -1648,13 +1504,11 @@
       "names": {
         "canto": {
           "pinyin": "Yìjái",
-          "characters": "姨仔",
-          "audio": "url"
+          "characters": "姨仔"
         },
         "mando": {
           "pinyin": "Xiǎoyí",
-          "characters": "小姨",
-          "audio": "url"
+          "characters": "小姨"
         }
       },
       "dad": "",
@@ -1675,13 +1529,11 @@
     "names": {
       "canto": {
         "pinyin": "Daailóu",
-        "characters": "大佬",
-        "audio": "url"
+        "characters": "大佬"
       },
       "mando": {
         "pinyin": "Gēgē",
-        "characters": "哥哥",
-        "audio": "url"
+        "characters": "哥哥"
       }
     },
     "dad": "",
@@ -1691,13 +1543,11 @@
       "names": {
         "canto": {
           "pinyin": "Asóu",
-          "characters": "阿嫂",
-          "audio": "url"
+          "characters": "阿嫂"
         },
         "mando": {
           "pinyin": "Sǎozi",
-          "characters": "嫂子",
-          "audio": "url"
+          "characters": "嫂子"
         }
       },
       "dad": "",
@@ -1719,13 +1569,11 @@
       "names": {
         "canto": {
           "pinyin": "Ját",
-          "characters": "侄",
-          "audio": "url"
+          "characters": "侄"
         },
         "mando": {
           "pinyin": "Zhízi",
-          "characters": "侄子",
-          "audio": "url"
+          "characters": "侄子"
         }
       },
       "dad": "",
@@ -1743,13 +1591,11 @@
       "names": {
         "canto": {
           "pinyin": "Jahtnéui",
-          "characters": "侄女",
-          "audio": "url"
+          "characters": "侄女"
         },
         "mando": {
           "pinyin": "Zhínǚ",
-          "characters": "侄女",
-          "audio": "url"
+          "characters": "侄女"
         }
       },
       "dad": "",
@@ -1768,13 +1614,11 @@
     "names": {
       "canto": {
         "pinyin": "Gajē",
-        "characters": "家姐",
-        "audio": "url"
+        "characters": "家姐"
       },
       "mando": {
         "pinyin": "Jiějiě",
-        "characters": "姐姐",
-        "audio": "url"
+        "characters": "姐姐"
       }
     },
     "dad": "",
@@ -1783,13 +1627,11 @@
       "names": {
         "canto": {
           "pinyin": "Jéfù",
-          "characters": "姐夫",
-          "audio": "url"
+          "characters": "姐夫"
         },
         "mando": {
           "pinyin": "Jiěfū",
-          "characters": "姐夫",
-          "audio": "url"
+          "characters": "姐夫"
         }
       },
       "dad": "",
@@ -1812,13 +1654,11 @@
       "names": {
         "canto": {
           "pinyin": "Ngoihsàng",
-          "characters": "外甥",
-          "audio": "url"
+          "characters": "外甥"
         },
         "mando": {
           "pinyin": "Wàishēng",
-          "characters": "外甥",
-          "audio": "url"
+          "characters": "外甥"
         }
       },
       "dad": "",
@@ -1836,13 +1676,11 @@
       "names": {
         "canto": {
           "pinyin": "Ngoihsàngnéui",
-          "characters": "外甥女",
-          "audio": "url"
+          "characters": "外甥女"
         },
         "mando": {
           "pinyin": "Wàishēngnǚ",
-          "characters": "外甥女",
-          "audio": "url"
+          "characters": "外甥女"
         }
       },
       "dad": "",
@@ -1861,13 +1699,11 @@
     "names": {
       "canto": {
         "pinyin": "Sailóu",
-        "characters": "細佬",
-        "audio": "url"
+        "characters": "細佬"
       },
       "mando": {
         "pinyin": "Dìdì",
-        "characters": "弟弟",
-        "audio": "url"
+        "characters": "弟弟"
       }
     },
     "dad": "",
@@ -1877,13 +1713,11 @@
       "names": {
         "canto": {
           "pinyin": "Daihfúh",
-          "characters": "弟婦",
-          "audio": "url"
+          "characters": "弟婦"
         },
         "mando": {
           "pinyin": "Dìfù",
-          "characters": "弟妇",
-          "audio": "url"
+          "characters": "弟妇"
         }
       },
       "dad": "",
@@ -1905,13 +1739,11 @@
       "names": {
         "canto": {
           "pinyin": "Ját",
-          "characters": "侄",
-          "audio": "url"
+          "characters": "侄"
         },
         "mando": {
           "pinyin": "Zhízi",
-          "characters": "侄子",
-          "audio": "url"
+          "characters": "侄子"
         }
       },
       "dad": "",
@@ -1929,13 +1761,11 @@
       "names": {
         "canto": {
           "pinyin": "Jahtnéui",
-          "characters": "侄女",
-          "audio": "url"
+          "characters": "侄女"
         },
         "mando": {
           "pinyin": "Zhínǚ",
-          "characters": "侄女",
-          "audio": "url"
+          "characters": "侄女"
         }
       },
       "dad": "",
@@ -1954,13 +1784,11 @@
     "names": {
       "canto": {
         "pinyin": "Saimúi",
-        "characters": "細妹",
-        "audio": "url"
+        "characters": "細妹"
       },
       "mando": {
         "pinyin": "Mèimei",
-        "characters": "妹妹",
-        "audio": "url"
+        "characters": "妹妹"
       }
     },
     "dad": "",
@@ -1969,13 +1797,11 @@
       "names": {
         "canto": {
           "pinyin": "Muihfù",
-          "characters": "妹夫",
-          "audio": "url"
+          "characters": "妹夫"
         },
         "mando": {
           "pinyin": "Mèifū",
-          "characters": "妹夫",
-          "audio": "url"
+          "characters": "妹夫"
         }
       },
       "dad": "",
@@ -1998,13 +1824,11 @@
       "names": {
         "canto": {
           "pinyin": "Ngoihsàng",
-          "characters": "外甥",
-          "audio": "url"
+          "characters": "外甥"
         },
         "mando": {
           "pinyin": "Wàishēng",
-          "characters": "外甥",
-          "audio": "url"
+          "characters": "外甥"
         }
       },
       "dad": "",
@@ -2022,13 +1846,11 @@
       "names": {
         "canto": {
           "pinyin": "Ngoihsàngnéui",
-          "characters": "外甥女",
-          "audio": "url"
+          "characters": "外甥女"
         },
         "mando": {
           "pinyin": "Wàishēngnǚ",
-          "characters": "外甥女",
-          "audio": "url"
+          "characters": "外甥女"
         }
       },
       "dad": "",
@@ -2047,13 +1869,11 @@
     "names": {
       "canto": {
         "pinyin": "Jái",
-        "characters": "仔",
-        "audio": "url"
+        "characters": "仔"
       },
       "mando": {
         "pinyin": "Érzi",
-        "characters": "儿子",
-        "audio": "url"
+        "characters": "儿子"
       }
     },
     "dad": "",
@@ -2063,13 +1883,11 @@
       "names": {
         "canto": {
           "pinyin": "Sànpóuh",
-          "characters": "新抱",
-          "audio": "url"
+          "characters": "新抱"
         },
         "mando": {
           "pinyin": "Xífù",
-          "characters": "媳妇",
-          "audio": "url"
+          "characters": "媳妇"
         }
       },
       "dad": "",
@@ -2091,13 +1909,11 @@
       "names": {
         "canto": {
           "pinyin": "Syùn",
-          "characters": "孫",
-          "audio": "url"
+          "characters": "孫"
         },
         "mando": {
           "pinyin": "Sūnzi",
-          "characters": "孙子",
-          "audio": "url"
+          "characters": "孙子"
         }
       },
       "dad": "",
@@ -2107,13 +1923,11 @@
         "names": {
           "canto": {
             "pinyin": "Sūnxífù",
-            "characters": "孙媳妇",
-            "audio": "url"
+            "characters": "孙媳妇"
           },
           "mando": {
             "pinyin": "Sūnxífù",
-            "characters": "孙媳妇",
-            "audio": "url"
+            "characters": "孙媳妇"
           }
         },
         "dad": "",
@@ -2135,13 +1949,11 @@
         "names": {
           "canto": {
             "pinyin": "Zēngsūnzi",
-            "characters": "曾孙子",
-            "audio": "url"
+            "characters": "曾孙子"
           },
           "mando": {
             "pinyin": "Zēngsūnzi",
-            "characters": "曾孙子",
-            "audio": "url"
+            "characters": "曾孙子"
           }
         },
         "dad": "",
@@ -2159,13 +1971,11 @@
         "names": {
           "canto": {
             "pinyin": "Zēngsūnnǚ",
-            "characters": "曾孙女",
-            "audio": "url"
+            "characters": "曾孙女"
           },
           "mando": {
             "pinyin": "Zēngsūnnǚ",
-            "characters": "曾孙女",
-            "audio": "url"
+            "characters": "曾孙女"
           }
         },
         "dad": "",
@@ -2184,13 +1994,11 @@
       "names": {
         "canto": {
           "pinyin": "Syùnnéui",
-          "characters": "孫女",
-          "audio": "url"
+          "characters": "孫女"
         },
         "mando": {
           "pinyin": "Sūnnǚ",
-          "characters": "孙女",
-          "audio": "url"
+          "characters": "孙女"
         }
       },
       "dad": "",
@@ -2199,13 +2007,11 @@
         "names": {
           "canto": {
             "pinyin": "Sūnnǚxù",
-            "characters": "孙女婿",
-            "audio": "url"
+            "characters": "孙女婿"
           },
           "mando": {
             "pinyin": "Sūnnǚxù",
-            "characters": "孙女婿",
-            "audio": "url"
+            "characters": "孙女婿"
           }
         },
         "dad": "",
@@ -2228,13 +2034,11 @@
         "names": {
           "canto": {
             "pinyin": "Zēngwàisūnzi",
-            "characters": "曾外孙子",
-            "audio": "url"
+            "characters": "曾外孙子"
           },
           "mando": {
             "pinyin": "Zēngwàisūnzi",
-            "characters": "曾外孙子",
-            "audio": "url"
+            "characters": "曾外孙子"
           }
         },
         "dad": "",
@@ -2252,13 +2056,11 @@
         "names": {
           "canto": {
             "pinyin": "Zēngwàisūnnǚ",
-            "characters": "曾外孙女",
-            "audio": "url"
+            "characters": "曾外孙女"
           },
           "mando": {
             "pinyin": "Zēngwàisūnnǚ",
-            "characters": "曾外孙女",
-            "audio": "url"
+            "characters": "曾外孙女"
           }
         },
         "dad": "",
@@ -2278,13 +2080,11 @@
     "names": {
       "canto": {
         "pinyin": "Néui",
-        "characters": "女儿",
-        "audio": "url"
+        "characters": "女儿"
       },
       "mando": {
         "pinyin": "Nǚ'ér",
-        "characters": "女儿",
-        "audio": "url"
+        "characters": "女儿"
       }
     },
     "dad": "",
@@ -2293,13 +2093,11 @@
       "names": {
         "canto": {
           "pinyin": "Néuihsai",
-          "characters": "女婿",
-          "audio": "url"
+          "characters": "女婿"
         },
         "mando": {
           "pinyin": "Nǚxù",
-          "characters": "女婿",
-          "audio": "url"
+          "characters": "女婿"
         }
       },
       "dad": "",
@@ -2322,13 +2120,11 @@
       "names": {
         "canto": {
           "pinyin": "Ngoihsyùn",
-          "characters": "外孫",
-          "audio": "url"
+          "characters": "外孫"
         },
         "mando": {
           "pinyin": "Wàisūnzi",
-          "characters": "外孙子",
-          "audio": "url"
+          "characters": "外孙子"
         }
       },
       "dad": "",
@@ -2338,13 +2134,11 @@
         "names": {
           "canto": {
             "pinyin": "Wàisūnxífù",
-            "characters": "外孙媳妇",
-            "audio": "url"
+            "characters": "外孙媳妇"
           },
           "mando": {
             "pinyin": "Wàisūnxífù",
-            "characters": "外孙媳妇",
-            "audio": "url"
+            "characters": "外孙媳妇"
           }
         },
         "dad": "",
@@ -2366,13 +2160,11 @@
         "names": {
           "canto": {
             "pinyin": "Wàizēngsūnzi",
-            "characters": "外曾孙女",
-            "audio": "url"
+            "characters": "外曾孙女"
           },
           "mando": {
             "pinyin": "Wàizēngsūnnǚ",
-            "characters": "外曾孙女",
-            "audio": "url"
+            "characters": "外曾孙女"
           }
         },
         "dad": "",
@@ -2390,13 +2182,11 @@
         "names": {
           "canto": {
             "pinyin": "Wàizēngsūnzi",
-            "characters": "外曾孙女",
-            "audio": "url"
+            "characters": "外曾孙女"
           },
           "mando": {
             "pinyin": "Wàizēngsūnnǚ",
-            "characters": "外曾孙女",
-            "audio": "url"
+            "characters": "外曾孙女"
           }
         },
         "dad": "",
@@ -2415,13 +2205,11 @@
       "names": {
         "canto": {
           "pinyin": "Ngoihsyùnnéui",
-          "characters": "外孫女",
-          "audio": "url"
+          "characters": "外孫女"
         },
         "mando": {
           "pinyin": "Wàisūnnǚ",
-          "characters": "外孙女",
-          "audio": "url"
+          "characters": "外孙女"
         }
       },
       "dad": "",
@@ -2430,13 +2218,11 @@
         "names": {
           "canto": {
             "pinyin": "Wàisūnnǚxù",
-            "characters": "外孙女婿",
-            "audio": "url"
+            "characters": "外孙女婿"
           },
           "mando": {
             "pinyin": "Wàisūnnǚxù",
-            "characters": "外孙女婿",
-            "audio": "url"
+            "characters": "外孙女婿"
           }
         },
         "dad": "",
@@ -2459,13 +2245,11 @@
         "names": {
           "canto": {
             "pinyin": "Zhòngwàisūnzi",
-            "characters": "重外孙子",
-            "audio": "url"
+            "characters": "重外孙子"
           },
           "mando": {
             "pinyin": "Zhòngwàisūnzi",
-            "characters": "重外孙子",
-            "audio": "url"
+            "characters": "重外孙子"
           }
         },
         "dad": "",
@@ -2483,13 +2267,11 @@
         "names": {
           "canto": {
             "pinyin": "Zhòngwàisūnnǚ",
-            "characters": "重外孙女",
-            "audio": "url"
+            "characters": "重外孙女"
           },
           "mando": {
             "pinyin": "Zhòngwàisūnnǚ",
-            "characters": "重外孙女",
-            "audio": "url"
+            "characters": "重外孙女"
           }
         },
         "dad": "",

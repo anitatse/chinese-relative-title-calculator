@@ -4,6 +4,7 @@ import ResultComponent from './components/ResultComponent';
 import KeyPadComponent from "./components/KeyPadComponent";
 import LanguageComponent from "./components/LanguageComponent";
 import { removeRedundantArguments, traverseTree } from './TreeTraversal.js';
+import { readSpeech } from './speech.js';
 var data = require('./data/familydata.json');
 
 class App extends Component {
@@ -17,7 +18,6 @@ class App extends Component {
             isWaitS: false,
             language: "mando"
         }
-        console.log(data);
     }
 
     onClick = button => {
@@ -84,11 +84,7 @@ class App extends Component {
     };
 
     playAudio = () => {
-      console.log(this.state.printedresult.url);
-      console.log("playing sound");
-      //placeholder audio right now
-      var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3');
-      audio.play();
+      readSpeech(this.state.language, this.state.printedresult);
     }
 
     calculate = () => {
