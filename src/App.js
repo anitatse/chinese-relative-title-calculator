@@ -4,7 +4,7 @@ import ResultComponent from './components/ResultComponent';
 import KeyPadComponent from "./components/KeyPadComponent";
 import LanguageComponent from "./components/LanguageComponent";
 import { removeRedundantArguments, traverseTree } from './TreeTraversal.js';
-import { readSpeech } from './speech.js';
+import { readSpeech } from './Speech.js';
 var data = require('./data/familydata.json');
 
 class App extends Component {

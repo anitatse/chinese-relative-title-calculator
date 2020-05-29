@@ -51,6 +51,11 @@ export function removeRedundantArguments(arg_array) {
         }
     }
 
+    //simplify parent child path (mom's kid == dad's kid) dataset only has children under dad
+    if (parentArray.includes(arg_array[i]) && childrenArray.includes(arg_array[i+1])) {
+        arg_array[i] = "dad";
+    }
+
   }
 
   return arg_array;

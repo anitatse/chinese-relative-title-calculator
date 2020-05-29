@@ -616,8 +616,50 @@
         "daughter": ""
       }
     },
-    "son": "",
-    "daughter": ""
+    "son": {
+      "names": {
+        "canto": {
+          "pinyin": "Daailóu or Sailóu",
+          "characters": "大佬 or 細佬"
+        },
+        "mando": {
+          "pinyin": "Gēgē or Dìdì",
+          "characters": "哥哥 or 弟弟"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    },
+    "daughter": {
+      "names": {
+        "canto": {
+          "pinyin": "Gajē or Saimúi",
+          "characters": "家姐 or 細妹"
+        },
+        "mando": {
+          "pinyin": "Jiějiě or Mèimei",
+          "characters": "姐姐 or 妹妹"
+        }
+      },
+      "dad": "",
+      "mom": "",
+      "husband": "",
+      "wife": "",
+      "olderbrother": "",
+      "oldersister": "",
+      "youngerbrother": "",
+      "youngersister": "",
+      "son": "",
+      "daughter": ""
+    }
   },
   "mom": {
     "names": {

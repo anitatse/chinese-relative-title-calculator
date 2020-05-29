@@ -13,7 +13,7 @@ export function readSpeech(language, result) {
 
   speech
     .init({
-      volume: 0.7,
+      volume: 0.8,
       lang: setLanguage,
       rate: 0.8,
       pitch: 1,
