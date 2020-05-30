@@ -13,17 +13,21 @@ export function removeRedundantArguments(arg_array) {
     // ex. spouse's kids == your kids
     let spouseKidsCondition = spouseArray.includes(arg_array[i]) && childrenArray.includes(arg_array[i+1]);
     // ex. spouse's spouse == you
-    let spouseSpouseCondition = spouseArray.includes(arg_array[i]) && spouseArray.includes(arg_array[i + 1])
-       && spouseArray.indexOf(arg_array[i]) !== spouseArray.indexOf(arg_array[i+1]);
+    let spouseSpouseCondition = spouseArray.includes(arg_array[i]) && spouseArray.includes(arg_array[i + 1]);
 
     // ex. your older sibling's older sister == your older sister
     let siblingSiblingCondition = siblingsArray.includes(arg_array[i]) && siblingsArray.includes(arg_array[i + 1])
-    // array indices 0+ 1 are older siblings, 2 + 3 are younger siblings (see siblingsArray above)
+          // array indices 0+ 1 are older siblings, 2 + 3 are younger siblings (see siblingsArray above)
        && ( ((siblingsArray.indexOf(arg_array[i]) === 0 || 1 ) && (siblingsArray.indexOf(arg_array[i+1]) === 0 || 1))  ||
           ((siblingsArray.indexOf(arg_array[i]) === 2 || 3 ) && ( siblingsArray.indexOf(arg_array[i+1]) === 2 || 3)) );
 
-    if (siblingParentsCondition || spouseKidsCondition || spouseSpouseCondition || siblingSiblingCondition) {
+    if (siblingParentsCondition || spouseKidsCondition || siblingSiblingCondition) {
        arg_array[i] = "";
+    }
+
+    if (spouseSpouseCondition) {
+      arg_array[i] = "";
+      arg_array[i+1] = "";
     }
 
     // simplify child path

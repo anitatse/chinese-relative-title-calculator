@@ -64,6 +64,14 @@
           "mando": {
             "pinyin": "Zēngzǔfù",
             "characters": "曾祖父"
+          },
+          "korean": {
+            "pinyin": "Jungjobu",
+            "characters": "증조부"
+          },
+          "japanese": {
+            "pinyin": "Sosofu",
+            "characters": "曽祖父"
           }
         },
         "dad": "",
@@ -86,6 +94,14 @@
           "mando": {
             "pinyin": "Zēngzǔmǔ",
             "characters": "曾祖母"
+          },
+          "korean": {
+            "pinyin": "Jungjomo",
+            "characters": "증조모"
+          },
+          "japanese": {
+            "pinyin": "Sosobo",
+            "characters": "曽祖母"
           }
         },
         "dad": "",
@@ -110,6 +126,14 @@
           "mando": {
             "pinyin": "Bógōng",
             "characters": "伯公"
+          },
+          "korean": {
+            "pinyin": "Keun harabeoji",
+            "characters": "큰할아버지"
+          },
+          "japanese": {
+            "pinyin": "Ooji",
+            "characters": "大伯父"
           }
         },
         "dad": "",
@@ -124,6 +148,14 @@
             "mando": {
               "pinyin": "Bópó",
               "characters": "伯婆"
+            },
+            "korean": {
+              "pinyin": "Keun halmeoni",
+              "characters": "큰할머니"
+            },
+            "japanese": {
+              "pinyin": "Ooba",
+              "characters": "大伯母"
             }
           },
           "dad": "",
@@ -153,6 +185,14 @@
           "mando": {
             "pinyin": "Gūpó",
             "characters": "姑婆"
+          },
+          "korean": {
+            "pinyin": "Keun halmeoni",
+            "characters": "큰할머니"
+          },
+          "japanese": {
+            "pinyin": "Ooba",
+            "characters": "大伯母"
           }
         },
         "dad": "",
@@ -166,6 +206,14 @@
             "mando": {
               "pinyin": "Gūzhànggōng",
               "characters": "姑丈公"
+            },
+            "korean": {
+              "pinyin": "Keun harabeoji",
+              "characters": "큰할아버지"
+            },
+            "japanese": {
+              "pinyin": "Ooji",
+              "characters": "大伯父"
             }
           },
           "dad": "",
@@ -196,6 +244,14 @@
           "mando": {
             "pinyin": "Shūgōng",
             "characters": "叔公"
+          },
+          "korean": {
+            "pinyin": "Jageun harabeoji",
+            "characters": "작은할아버지"
+          },
+          "japanese": {
+            "pinyin": "Ooji",
+            "characters": "大叔父"
           }
         },
         "dad": "",
@@ -210,6 +266,14 @@
             "mando": {
               "pinyin": "Shūpó",
               "characters": "叔婆"
+            },
+            "korean": {
+              "pinyin": "Jageun halmeoni",
+              "characters": "작은 할머니"
+            },
+            "japanese": {
+              "pinyin": "Ooba",
+              "characters": "大叔母"
             }
           },
           "dad": "",
@@ -239,6 +303,14 @@
           "mando": {
             "pinyin": "Gūpó",
             "characters": "姑婆"
+          },
+          "korean": {
+            "pinyin": "Jageun halmeoni",
+            "characters": "작은 할머니"
+          },
+          "japanese": {
+            "pinyin": "Ooba",
+            "characters": "大叔母"
           }
         },
         "dad": "",
@@ -252,6 +324,14 @@
             "mando": {
               "pinyin": "Gūzhànggōng",
               "characters": "姑丈公"
+            },
+            "korean": {
+              "pinyin": "Jageun harabeoji",
+              "characters": "작은할아버지"
+            },
+            "japanese": {
+              "pinyin": "Ooji",
+              "characters": "大叔父"
             }
           },
           "dad": "",
@@ -379,8 +459,8 @@
             "characters": "사촌"
           },
           "japanese": {
-            "pinyin": "Itoko",
-            "characters": "従兄弟"
+            "pinyin": "Jūkei or Jūtei",
+            "characters": "従兄 or 従弟"
           }
         },
         "dad": "",
@@ -409,8 +489,8 @@
             "characters": "사촌"
           },
           "japanese": {
-            "pinyin": "Itoko",
-            "characters": "従姉妹"
+            "pinyin": "Jūshi or Jūmei",
+            "characters": "従姉 or 従妹"
           }
         },
         "dad": "",
@@ -496,8 +576,8 @@
             "characters": "사촌"
           },
           "japanese": {
-            "pinyin": "Itoko",
-            "characters": "従兄弟"
+            "pinyin": "Jūkei or Jūtei",
+            "characters": "従兄 or 従弟"
           }
         },
         "dad": "",
@@ -526,8 +606,8 @@
             "characters": "사촌"
           },
           "japanese": {
-            "pinyin": "Itoko",
-            "characters": "従姉妹"
+            "pinyin": "Jūshi or Jūmei",
+            "characters": "従姉 or 従妹"
           }
         },
         "dad": "",
@@ -613,8 +693,8 @@
             "characters": "사촌"
           },
           "japanese": {
-            "pinyin": "Itoko",
-            "characters": "従兄弟"
+            "pinyin": "Jūkei or Jūtei",
+            "characters": "従兄 or 従弟"
           }
         },
         "dad": "",
@@ -643,8 +723,8 @@
             "characters": "사촌"
           },
           "japanese": {
-            "pinyin": "Itoko",
-            "characters": "従姉妹"
+            "pinyin": "Jūshi or Jūmei",
+            "characters": "従姉 or 従妹"
           }
         },
         "dad": "",
@@ -730,8 +810,8 @@
             "characters": "사촌"
           },
           "japanese": {
-            "pinyin": "Itoko",
-            "characters": "従兄弟"
+            "pinyin": "Jūkei or Jūtei",
+            "characters": "従兄 or 従弟"
           }
         },
         "dad": "",
@@ -760,8 +840,8 @@
             "characters": "사촌"
           },
           "japanese": {
-            "pinyin": "Itoko",
-            "characters": "従姉妹"
+            "pinyin": "Jūshi or Jūmei",
+            "characters": "従姉 or 従妹"
           }
         },
         "dad": "",
@@ -785,6 +865,14 @@
         "mando": {
           "pinyin": "Gēgē or Dìdì",
           "characters": "哥哥 or 弟弟"
+        },
+        "korean": {
+          "pinyin": "Hyeong or Oppa, or Namdongsaeng",
+          "characters": "형 or 오빠, or 남동생"
+        },
+        "japanese": {
+          "pinyin": "Ani or Otouto",
+          "characters": "兄 or 弟"
         }
       },
       "dad": "",
@@ -807,6 +895,14 @@
         "mando": {
           "pinyin": "Jiějiě or Mèimei",
           "characters": "姐姐 or 妹妹"
+        },
+        "korean": {
+          "pinyin": "Noona or Eonni, or Yeodongsaeng",
+          "characters": "누나 or 언니, or 여동생"
+        },
+        "japanese": {
+          "pinyin": "Ane or Imouto",
+          "characters": "姉 or 妹"
         }
       },
       "dad": "",
@@ -868,6 +964,14 @@
           "mando": {
             "pinyin": "Wàizēngzǔfù",
             "characters": "外曾祖父"
+          },
+          "korean": {
+            "pinyin": "Jungjobu",
+            "characters": "증조부"
+          },
+          "japanese": {
+            "pinyin": "Sosofu",
+            "characters": "曽祖父"
           }
         },
         "dad": "",
@@ -890,6 +994,14 @@
           "mando": {
             "pinyin": "Wàizēngzǔmǔ",
             "characters": "外曾祖母"
+          },
+          "korean": {
+            "pinyin": "Jungjomo",
+            "characters": "증조모"
+          },
+          "japanese": {
+            "pinyin": "Sosobo",
+            "characters": "曽祖母"
           }
         },
         "dad": "",
@@ -914,6 +1026,14 @@
           "mando": {
             "pinyin": "Jiùgōng",
             "characters": "舅公"
+          },
+          "korean": {
+            "pinyin": "Keun harabeoji",
+            "characters": "큰할아버지"
+          },
+          "japanese": {
+            "pinyin": "Ooji",
+            "characters": "大伯父"
           }
         },
         "dad": "",
@@ -928,6 +1048,14 @@
             "mando": {
               "pinyin": "Jiùpó",
               "characters": "舅婆"
+            },
+            "korean": {
+              "pinyin": "Keun halmeoni",
+              "characters": "큰할머니"
+            },
+            "japanese": {
+              "pinyin": "Ooba",
+              "characters": "大伯母"
             }
           },
           "dad": "",
@@ -957,6 +1085,14 @@
           "mando": {
             "pinyin": "Yípó",
             "characters": "姨婆"
+          },
+          "korean": {
+            "pinyin": "Keun halmeoni",
+            "characters": "큰할머니"
+          },
+          "japanese": {
+            "pinyin": "Ooba",
+            "characters": "大伯母"
           }
         },
         "dad": "",
@@ -970,6 +1106,14 @@
             "mando": {
               "pinyin": "Yízhànggōng",
               "characters": "姨丈公"
+            },
+            "korean": {
+              "pinyin": "Keun harabeoji",
+              "characters": "큰할아버지"
+            },
+            "japanese": {
+              "pinyin": "Ooji",
+              "characters": "大伯父"
             }
           },
           "dad": "",
@@ -1000,6 +1144,14 @@
           "mando": {
             "pinyin": "Jiùgōng",
             "characters": "舅公"
+          },
+          "korean": {
+            "pinyin": "Jageun harabeoji",
+            "characters": "작은할아버지"
+          },
+          "japanese": {
+            "pinyin": "Ooji",
+            "characters": "大叔父"
           }
         },
         "dad": "",
@@ -1014,6 +1166,14 @@
             "mando": {
               "pinyin": "Jiùpó",
               "characters": "舅婆"
+            },
+            "korean": {
+              "pinyin": "Jageun halmeoni",
+              "characters": "작은 할머니"
+            },
+            "japanese": {
+              "pinyin": "Ooba",
+              "characters": "大叔母"
             }
           },
           "dad": "",
@@ -1043,6 +1203,14 @@
           "mando": {
             "pinyin": "Yípó",
             "characters": "姨婆"
+          },
+          "korean": {
+            "pinyin": "Jageun halmeoni",
+            "characters": "작은 할머니"
+          },
+          "japanese": {
+            "pinyin": "Ooba",
+            "characters": "大叔母"
           }
         },
         "dad": "",
@@ -1056,6 +1224,14 @@
             "mando": {
               "pinyin": "Yízhànggōng",
               "characters": "姨丈公"
+            },
+            "korean": {
+              "pinyin": "Jageun harabeoji",
+              "characters": "작은할아버지"
+            },
+            "japanese": {
+              "pinyin": "Ooji",
+              "characters": "大叔父"
             }
           },
           "dad": "",
@@ -1183,8 +1359,8 @@
             "characters": "사촌"
           },
           "japanese": {
-            "pinyin": "Itoko",
-            "characters": "従兄弟"
+            "pinyin": "Jūkei or Jūtei",
+            "characters": "従兄 or 従弟"
           }
         },
         "dad": "",
@@ -1213,8 +1389,8 @@
             "characters": "사촌"
           },
           "japanese": {
-            "pinyin": "Itoko",
-            "characters": "従姉妹"
+            "pinyin": "Jūshi or Jūmei",
+            "characters": "従姉 or 従妹"
           }
         },
         "dad": "",
@@ -1300,8 +1476,8 @@
             "characters": "사촌"
           },
           "japanese": {
-            "pinyin": "Itoko",
-            "characters": "従兄弟"
+            "pinyin": "Jūkei or Jūtei",
+            "characters": "従兄 or 従弟"
           }
         },
         "dad": "",
@@ -1330,8 +1506,8 @@
             "characters": "사촌"
           },
           "japanese": {
-            "pinyin": "Itoko",
-            "characters": "従姉妹"
+            "pinyin": "Jūshi or Jūmei",
+            "characters": "従姉 or 従妹"
           }
         },
         "dad": "",
@@ -1417,8 +1593,8 @@
             "characters": "사촌"
           },
           "japanese": {
-            "pinyin": "Itoko",
-            "characters": "従兄弟"
+            "pinyin": "Jūkei or Jūtei",
+            "characters": "従兄 or 従弟"
           }
         },
         "dad": "",
@@ -1447,8 +1623,8 @@
             "characters": "사촌"
           },
           "japanese": {
-            "pinyin": "Itoko",
-            "characters": "従姉妹"
+            "pinyin": "Jūshi or Jūmei",
+            "characters": "従姉 or 従妹"
           }
         },
         "dad": "",
@@ -1534,8 +1710,8 @@
             "characters": "사촌"
           },
           "japanese": {
-            "pinyin": "Itoko",
-            "characters": "従兄弟"
+            "pinyin": "Jūkei or Jūtei",
+            "characters": "従兄 or 従弟"
           }
         },
         "dad": "",
@@ -1564,8 +1740,8 @@
             "characters": "사촌"
           },
           "japanese": {
-            "pinyin": "Itoko",
-            "characters": "従姉妹"
+            "pinyin": "Jūshi or Jūmei",
+            "characters": "従姉 or 従妹"
           }
         },
         "dad": "",
@@ -2530,8 +2706,8 @@
           "characters": "손자"
         },
         "japanese": {
-          "pinyin": "Mago",
-          "characters": "孫"
+          "pinyin": "Mago musuku",
+          "characters": "孫息子"
         }
       },
       "dad": "",
@@ -2546,6 +2722,10 @@
           "mando": {
             "pinyin": "Sūnxífù",
             "characters": "孙媳妇"
+          },
+          "japanese": {
+            "pinyin": "Giri no mago musume",
+            "characters": "義理の孫娘"
           }
         },
         "dad": "",
@@ -2623,8 +2803,8 @@
           "characters": "손녀"
         },
         "japanese": {
-          "pinyin": "Mago",
-          "characters": "孫"
+          "pinyin": "Mago musume",
+          "characters": "孫娘"
         }
       },
       "dad": "",
@@ -2638,6 +2818,10 @@
           "mando": {
             "pinyin": "Sūnnǚxù",
             "characters": "孙女婿"
+          },
+          "japanese": {
+            "pinyin": "Giri no mago musuku",
+            "characters": "義理の孫息子"
           }
         },
         "dad": "",
@@ -2773,8 +2957,8 @@
           "characters": "손자"
         },
         "japanese": {
-          "pinyin": "Mago",
-          "characters": "孫"
+          "pinyin": "Mago musuku",
+          "characters": "孫息子"
         }
       },
       "dad": "",
@@ -2789,6 +2973,10 @@
           "mando": {
             "pinyin": "Wàisūnxífù",
             "characters": "外孙媳妇"
+          },
+          "japanese": {
+            "pinyin": "Giri no mago musume",
+            "characters": "義理の孫娘"
           }
         },
         "dad": "",
@@ -2866,8 +3054,8 @@
           "characters": "손녀"
         },
         "japanese": {
-          "pinyin": "Mago",
-          "characters": "孫"
+          "pinyin": "Mago musume",
+          "characters": "孫娘"
         }
       },
       "dad": "",
@@ -2881,6 +3069,10 @@
           "mando": {
             "pinyin": "Wàisūnnǚxù",
             "characters": "外孙女婿"
+          },
+          "japanese": {
+            "pinyin": "Giri no mago musuku",
+            "characters": "義理の孫息子"
           }
         },
         "dad": "",
