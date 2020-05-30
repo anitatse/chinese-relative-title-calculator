@@ -159,19 +159,20 @@ class App extends Component {
                 <div className="calculator-body">
                     <h1>Asian Relative Title Calculator</h1>
                     <p>
-                      Asian relative titles are complicated. Here's a calculator to help! <br></br>
-                      Inspiration from <a href="https://play.google.com/store/apps/details?id=org.igears.relativesa&hl=en" target="_blank">姨媽姑姐</a> and titles based off <a href="https://youtu.be/nCFRoILS1jY" target="_blank">Off the Great Wall</a>, <a href="https://www.learn-japanese-adventure.com/japanese-family.html" target="_blank">Learn Japanese Adventure</a> and <a href="https://thetalkingcupboard.com/2013/05/11/korean-family-and-kinship-terms/" target="_blank">The Talking Cupboard</a>.
+                      Asian relative titles are complicated. <br></br> Here's a calculator to help!
                     </p>
                     <LanguageComponent onClick={this.onClick} language={this.state.language}/>
                     <ResultComponent result={this.state.printedresult}/>
                     <div className="row"><KeyPadComponent onClick={this.onClick} isWaitReset={this.state.isWaitReset}/><FunctionKeyComponent onClick={this.onClick} isWaitReset={this.state.isWaitReset}/></div>
                     <p className="disclaimer">
-                    Click the buttons according to the relation you want to know about. For example, to find your mom's older sister's title, click <mark>Mom</mark>, <mark>Older sister</mark>, <mark>=</mark>. Click 🗣 to hear the audio, or toggle between the other languages to explore the differences/similarities between them!
+                    Click the buttons according to the relation you want to know about. For example, to find your mom's older sister's title, click: <mark>Mom</mark>, <mark>Older sister</mark>, <mark>=</mark>. Click 🗣 to hear the audio, or toggle between the other languages to explore the differences/similarities between them!
                     <br></br><br></br>
                     See a bug or want to help add another language? <a href="https://github.com/anitatse/chinese-relative-title-calculator" target="_blank">Contribute</a> or <a href="mailto:anitatse@alumni.ubc.ca">email me</a> 😊
-                    <br></br><br></br>
+                    </p>
+                    <p className="disclaimer" style={{fontSize: "14px"}}>
                     * It is understood that these titles are based off Asian customs and do not represent all of the relationships and gender identities out there. Audio feature is not compatible with all devices.
-
+                    <br></br>
+                    Inspiration from <a href="https://play.google.com/store/apps/details?id=org.igears.relativesa&hl=en" target="_blank">姨媽姑姐</a> and titles based off <a href="https://youtu.be/nCFRoILS1jY" target="_blank">Off the Great Wall</a>, <a href="https://www.learn-japanese-adventure.com/japanese-family.html" target="_blank">Learn Japanese Adventure</a> and <a href="https://thetalkingcupboard.com/2013/05/11/korean-family-and-kinship-terms/" target="_blank">The Talking Cupboard</a>.
                     </p>
                 </div>
             </div>
