@@ -41,7 +41,9 @@ class App extends Component {
         else if(button === "mando") {
             this.setLanguage("mando")
         }
-        else {
+        else if(button === "korean") {
+            this.setLanguage("korean")
+        } else {
             this.addArgument(button)
        }
 
@@ -56,17 +58,26 @@ class App extends Component {
         let arg_array = removeRedundantArguments(this.state.result.split("'s "))
         let result = traverseTree(data, arg_array);
 
-        try {
-            this.setState({
-                // eslint-disable-next-line
-                printedresult: result.names[this.state.language],
-                isWaitReset: true
-            })
-        } catch (e) {
-            this.setState({
-                printedresult: "Error 😢",
-                isWaitReset: true
-            })
+        if ((result.names[this.state.language] || "") === "") {
+
+          this.setState({
+              printedresult: "Error 😢",
+              isWaitReset: true
+          })
+
+        } else {
+
+            try {
+                this.setState({
+                    printedresult: result.names[this.state.language],
+                    isWaitReset: true
+                })
+            } catch (e) {
+                this.setState({
+                    printedresult: "Error 😢",
+                    isWaitReset: true
+                })
+            }
         }
     };
 
@@ -143,16 +154,16 @@ class App extends Component {
         return (
             <div className="container">
                 <div className="calculator-body">
-                    <h1>Chinese Relative Title Calculator</h1>
+                    <h1>Asian Relative Title Calculator</h1>
                     <p>
-                      Chinese relative titles are complicated. Here's a calculator to help! <br></br>
-                      Inspiration from <a href="https://play.google.com/store/apps/details?id=org.igears.relativesa&hl=en" target="_blank">姨媽姑姐</a> and titles based off <a href="https://youtu.be/nCFRoILS1jY" target="_blank">Off the Great Wall</a>.
+                      Asian relative titles are complicated. Here's a calculator to help! <br></br>
+                      Inspiration from <a href="https://play.google.com/store/apps/details?id=org.igears.relativesa&hl=en" target="_blank">姨媽姑姐</a> and titles based off <a href="https://youtu.be/nCFRoILS1jY" target="_blank">Off the Great Wall</a> and <a href="https://thetalkingcupboard.com/2013/05/11/korean-family-and-kinship-terms/" target="_blank">The Talking Cupboard</a>.
                     </p>
                     <LanguageComponent onClick={this.onClick} language={this.state.language}/>
                     <ResultComponent result={this.state.printedresult}/>
                     <div className="row"><KeyPadComponent onClick={this.onClick} isWaitReset={this.state.isWaitReset}/><FunctionKeyComponent onClick={this.onClick} isWaitReset={this.state.isWaitReset}/></div>
                     <p className="disclaimer">
-                    Click the buttons according to the relation you want to know about. For example, to find your mom's older sister's title, click <mark>Mom</mark>, <mark>Older sister</mark>, <mark>=</mark>. Click 🗣 to hear the audio, or toggle between the Mandarin and Cantonese languages to explore the differences/similarities between the two!
+                    Click the buttons according to the relation you want to know about. For example, to find your mom's older sister's title, click <mark>Mom</mark>, <mark>Older sister</mark>, <mark>=</mark>. Click 🗣 to hear the audio, or toggle between the Mandarin, Cantonese, and Korean languages to explore the differences/similarities between them!
                     <br></br><br></br>
                     See a bug or want to help add another language? <a href="https://github.com/anitatse/chinese-relative-title-calculator" target="_blank">Contribute</a> or <a href="mailto:anitatse@alumni.ubc.ca">email me</a> 😊
                     <br></br><br></br>

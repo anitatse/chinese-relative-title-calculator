@@ -6,14 +6,21 @@ export function readSpeech(language, result) {
   let text;
   let voice;
 
-  // read answers in chinese
+  // read answers in language
   text = result.characters;
+
   if (language === "mando") {
     setLanguage = "zh-CN";
     voice = "Ting-Ting";
-  } else {
+  } else if (language === "canto") {
     setLanguage = "zh-HK";
     voice = "Sin-ji";
+  } else if (language === "japanese") {
+    setLanguage = "ja-JP";
+    voice = "Google 日本語";
+  } else {
+    setLanguage = "ko-KR";
+    voice = "Google 한국의";
   }
 
   // read arguments in english
@@ -35,6 +42,7 @@ export function readSpeech(language, result) {
       splitSentences: false
     })
     .then(data => {
+      console.log(data);
       speech
         .speak({
           text: text,

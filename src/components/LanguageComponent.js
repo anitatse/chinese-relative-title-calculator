@@ -13,6 +13,23 @@ class LanguageComponent extends Component {
               <label className="radioLabel">Cantonese
                 <button name="canto" className="language" onClick={e => this.props.onClick(e.target.name)}></button>
               </label>
+              <label className="radioLabel">Korean
+                <button name="korean" className="language" onClick={e => this.props.onClick(e.target.name)}></button>
+              </label>
+            </div>
+          );
+        } else if (this.props.language === "canto") {
+          return (
+            <div>
+              <label className="radioLabel">Mandarin
+                <button name="mando" className="language" onClick={e => this.props.onClick(e.target.name)}></button>
+              </label>
+              <label className="radioLabel">Cantonese
+                <button name="canto" className="selectedlanguage" onClick={e => this.props.onClick(e.target.name)}></button>
+              </label>
+              <label className="radioLabel">Korean
+                <button name="korean" className="language" onClick={e => this.props.onClick(e.target.name)}></button>
+              </label>
             </div>
           );
         } else {
@@ -22,7 +39,10 @@ class LanguageComponent extends Component {
                 <button name="mando" className="language" onClick={e => this.props.onClick(e.target.name)}></button>
               </label>
               <label className="radioLabel">Cantonese
-                <button name="canto" className="selectedlanguage" onClick={e => this.props.onClick(e.target.name)}></button>
+                <button name="canto" className="language" onClick={e => this.props.onClick(e.target.name)}></button>
+              </label>
+              <label className="radioLabel">Korean
+                <button name="korean" className="selectedlanguage" onClick={e => this.props.onClick(e.target.name)}></button>
               </label>
             </div>
           );
