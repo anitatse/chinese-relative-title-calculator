@@ -15,7 +15,6 @@ class App extends Component {
             result: "",
             printedresult: "",
             isWaitReset: false,
-            isWaitS: false,
             language: "mando"
         }
     }
@@ -31,56 +30,19 @@ class App extends Component {
         else if(button === "audio") {
             this.playAudio()
         }
+        else if(button === "back") {
+            this.backspace()
+        }
         else if(button === "canto") {
-          this.setState({ language: "canto" }, () => {
-            if (this.state.isWaitReset) {
-              console.log(this.state);
-              this.calculate();
-            }
-          } );
-
+            this.setLanguage("canto")
         }
         else if(button === "mando") {
-          this.setState({ language: "mando" }, () => {
-            if (this.state.isWaitReset) {
-              console.log(this.state);
-              this.calculate();
-            }
-          } );
-
+            this.setLanguage("mando")
         }
-        else if (button === "s") {
-            this.setState({
-                  result: this.state.result + "'s ",
-                  printedresult: this.state.printedresult + "'s ",
-                  isWaitS: false
-                })
-       } else {
-
-           var toPrintedResult;
-
-           if (button === "oldersister") {
-                toPrintedResult = this.state.printedresult + "older sister"
-           }
-           else if (button === "youngersister") {
-                toPrintedResult = this.state.printedresult + "younger sister"
-           }
-           else if (button === "olderbrother") {
-                toPrintedResult = this.state.printedresult + "older brother"
-           }
-           else if (button === "youngerbrother") {
-                toPrintedResult = this.state.printedresult + "younger brother"
-           } else {
-                toPrintedResult = this.state.printedresult + button
-           }
-
-           this.setState({
-             result: this.state.result + button,
-             printedresult: toPrintedResult,
-             isWaitS: true
-           })
-
+        else {
+            this.addArgument(button)
        }
+       
     };
 
     playAudio = () => {
@@ -110,10 +72,71 @@ class App extends Component {
         this.setState({
             result: "",
             printedresult: "",
-            isWaitReset: false,
-            isWaitS: false
+            isWaitReset: false
         })
     };
+
+    setLanguage = (language) => {
+      this.setState({ language: language },
+        () => {
+        if (this.state.isWaitReset) {
+          console.log(this.state);
+          this.calculate();
+        }
+      } );
+    }
+
+    addArgument = (button) => {
+        var toPrintedResult;
+        var toResult;
+
+        if (this.state.printedresult !== "") {
+             toPrintedResult = this.state.printedresult + "'s ";
+             toResult = this.state.result + "'s ";
+        } else {
+             toPrintedResult = this.state.printedresult
+             toResult = this.state.result;
+        }
+
+        if (button === "oldersister") {
+             toPrintedResult = toPrintedResult + "older sister"
+        }
+        else if (button === "youngersister") {
+             toPrintedResult = toPrintedResult + "younger sister"
+        }
+        else if (button === "olderbrother") {
+             toPrintedResult = toPrintedResult + "older brother"
+        }
+        else if (button === "youngerbrother") {
+             toPrintedResult = toPrintedResult + "younger brother"
+        } else {
+             toPrintedResult = toPrintedResult + button
+        }
+
+        this.setState({
+          result: toResult + button,
+          printedresult: toPrintedResult,
+        })
+    }
+
+    backspace = () => {
+        if (this.state.isWaitReset) {
+          this.reset();
+        }
+        else if (this.state.result !== "") {
+            var indexToSlice = this.state.printedresult.lastIndexOf("'s ");
+            var nextIndexToSlice = this.state.result.lastIndexOf("'s ");
+
+            if (indexToSlice === -1) {
+                this.reset();
+            } else {
+                this.setState({
+                  result: this.state.result.substring(0, nextIndexToSlice),
+                  printedresult: this.state.printedresult.substring(0,indexToSlice)
+                })
+            }
+        }
+    }
 
     render() {
         return (
@@ -122,7 +145,7 @@ class App extends Component {
                     <h1>Chinese Relative Title Calculator</h1>
                     <LanguageComponent onClick={this.onClick} language={this.state.language}/>
                     <ResultComponent result={this.state.printedresult}/>
-                    <KeyPadComponent onClick={this.onClick} isWaitReset={this.state.isWaitReset} isWaitS={this.state.isWaitS}/>
+                    <KeyPadComponent onClick={this.onClick} isWaitReset={this.state.isWaitReset}/>
                 </div>
             </div>
         );
