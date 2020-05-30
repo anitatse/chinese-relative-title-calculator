@@ -7,15 +7,23 @@ class LanguageComponent extends Component {
         if (this.props.language === "mando") {
           return (
             <div>
-                <button name="canto" className="language" onClick={e => this.props.onClick(e.target.name)}>Cantonese</button>
-                <button name="mando" className="selectedlanguage" onClick={e => this.props.onClick(e.target.name)}>Mandarin</button>
+              <label className="radioLabel">Mandarin
+                <button name="mando" className="selectedlanguage" onClick={e => this.props.onClick(e.target.name)}></button>
+              </label>
+              <label className="radioLabel">Cantonese
+                <button name="canto" className="language" onClick={e => this.props.onClick(e.target.name)}></button>
+              </label>
             </div>
           );
-        } else if (this.props.language === "canto") {
+        } else {
           return (
             <div>
-                <button name="canto" className="selectedlanguage" onClick={e => this.props.onClick(e.target.name)}>Cantonese</button>
-                <button name="mando" className="language" onClick={e => this.props.onClick(e.target.name)}>Mandarin</button>
+              <label className="radioLabel">Mandarin
+                <button name="mando" className="language" onClick={e => this.props.onClick(e.target.name)}></button>
+              </label>
+              <label className="radioLabel">Cantonese
+                <button name="canto" className="selectedlanguage" onClick={e => this.props.onClick(e.target.name)}></button>
+              </label>
             </div>
           );
         }

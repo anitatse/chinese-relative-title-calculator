@@ -5,7 +5,7 @@ import KeyPadComponent from "./components/KeyPadComponent";
 import LanguageComponent from "./components/LanguageComponent";
 import { removeRedundantArguments, traverseTree } from './TreeTraversal.js';
 import { readSpeech } from './Speech.js';
-var data = require('./data/familydata.json');
+let data = require('./data/familydata.json');
 
 class App extends Component {
     constructor(){
@@ -15,7 +15,6 @@ class App extends Component {
             result: "",
             printedresult: "",
             isWaitReset: false,
-            isWaitS: false,
             language: "mando"
         }
     }
@@ -31,56 +30,19 @@ class App extends Component {
         else if(button === "audio") {
             this.playAudio()
         }
+        else if(button === "back") {
+            this.backspace()
+        }
         else if(button === "canto") {
-          this.setState({ language: "canto" }, () => {
-            if (this.state.isWaitReset) {
-              console.log(this.state);
-              this.calculate();
-            }
-          } );
-
+            this.setLanguage("canto")
         }
         else if(button === "mando") {
-          this.setState({ language: "mando" }, () => {
-            if (this.state.isWaitReset) {
-              console.log(this.state);
-              this.calculate();
-            }
-          } );
-
+            this.setLanguage("mando")
         }
-        else if (button === "s") {
-            this.setState({
-                  result: this.state.result + "'s ",
-                  printedresult: this.state.printedresult + "'s ",
-                  isWaitS: false
-                })
-       } else {
-
-           var toPrintedResult;
-
-           if (button === "oldersister") {
-                toPrintedResult = this.state.printedresult + "older sister"
-           }
-           else if (button === "youngersister") {
-                toPrintedResult = this.state.printedresult + "younger sister"
-           }
-           else if (button === "olderbrother") {
-                toPrintedResult = this.state.printedresult + "older brother"
-           }
-           else if (button === "youngerbrother") {
-                toPrintedResult = this.state.printedresult + "younger brother"
-           } else {
-                toPrintedResult = this.state.printedresult + button
-           }
-
-           this.setState({
-             result: this.state.result + button,
-             printedresult: toPrintedResult,
-             isWaitS: true
-           })
-
+        else {
+            this.addArgument(button)
        }
+
     };
 
     playAudio = () => {
@@ -89,8 +51,8 @@ class App extends Component {
 
     calculate = () => {
 
-        var arg_array = removeRedundantArguments(this.state.result.split("'s "))
-        var result = traverseTree(data, arg_array);
+        let arg_array = removeRedundantArguments(this.state.result.split("'s "))
+        let result = traverseTree(data, arg_array);
 
         try {
             this.setState({
@@ -100,7 +62,7 @@ class App extends Component {
             })
         } catch (e) {
             this.setState({
-                printedresult: "Error 🥺",
+                printedresult: "Error 😢",
                 isWaitReset: true
             })
         }
@@ -110,19 +72,86 @@ class App extends Component {
         this.setState({
             result: "",
             printedresult: "",
-            isWaitReset: false,
-            isWaitS: false
+            isWaitReset: false
         })
     };
+
+    setLanguage = (language) => {
+      this.setState({ language: language },
+        () => {
+        if (this.state.isWaitReset) {
+          this.calculate();
+        }
+      } );
+    }
+
+    addArgument = (button) => {
+        let toPrintedResult;
+        let toResult;
+
+        if (this.state.printedresult !== "") {
+             toPrintedResult = this.state.printedresult + "'s ";
+             toResult = this.state.result + "'s ";
+        } else {
+             toPrintedResult = this.state.printedresult
+             toResult = this.state.result;
+        }
+
+        if (button === "oldersister") {
+             toPrintedResult = toPrintedResult + "older sister"
+        }
+        else if (button === "youngersister") {
+             toPrintedResult = toPrintedResult + "younger sister"
+        }
+        else if (button === "olderbrother") {
+             toPrintedResult = toPrintedResult + "older brother"
+        }
+        else if (button === "youngerbrother") {
+             toPrintedResult = toPrintedResult + "younger brother"
+        } else {
+             toPrintedResult = toPrintedResult + button
+        }
+
+        this.setState({
+          result: toResult + button,
+          printedresult: toPrintedResult,
+        })
+    }
+
+    backspace = () => {
+        if (this.state.isWaitReset) {
+          this.reset();
+        }
+        else if (this.state.result !== "") {
+            let indexToSlice = this.state.printedresult.lastIndexOf("'s ");
+            let nextIndexToSlice = this.state.result.lastIndexOf("'s ");
+
+            if (indexToSlice === -1) {
+                this.reset();
+            } else {
+                this.setState({
+                  result: this.state.result.substring(0, nextIndexToSlice),
+                  printedresult: this.state.printedresult.substring(0,indexToSlice)
+                })
+            }
+        }
+    }
 
     render() {
         return (
             <div className="container">
                 <div className="calculator-body">
                     <h1>Chinese Relative Title Calculator</h1>
+                    <p>
+                      Chinese relative titles are complicated. Here's a calculator to help! <br></br>
+                      Inspiration from <a href="https://play.google.com/store/apps/details?id=org.igears.relativesa&hl=en" target="_blank">姨媽姑姐</a> and titles based off <a href="https://youtu.be/nCFRoILS1jY" target="_blank">Off the Great Wall</a>.
+                    </p>
                     <LanguageComponent onClick={this.onClick} language={this.state.language}/>
                     <ResultComponent result={this.state.printedresult}/>
-                    <KeyPadComponent onClick={this.onClick} isWaitReset={this.state.isWaitReset} isWaitS={this.state.isWaitS}/>
+                    <KeyPadComponent onClick={this.onClick} isWaitReset={this.state.isWaitReset}/>
+                    <p className="disclaimer">* It is understood that these titles are based off Asian customs and do not represent all of the relationships and gender identities out there. Audio feature is not compatible with all devices.
+                    <br></br>
+                    See a bug or want to help add another language? <a href="https://github.com/anitatse/chinese-relative-title-calculator" target="_blank">Contribute</a> or <a href="mailto:anitatse@alumni.ubc.ca">email me</a> 😊</p>
                 </div>
             </div>
         );

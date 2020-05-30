@@ -1,23 +1,24 @@
 
-var siblingsArray = ["oldersister", "olderbrother", "youngersister", "youngerbrother"];
-var parentArray = ["mom", "dad"];
-var spouseArray = ["husband", "wife"];
-var childrenArray = ["son", "daughter"];
+let siblingsArray = ["oldersister", "olderbrother", "youngersister", "youngerbrother"];
+let parentArray = ["mom", "dad"];
+let spouseArray = ["husband", "wife"];
+let childrenArray = ["son", "daughter"];
 
 //removes redundant arguments from the path
 export function removeRedundantArguments(arg_array) {
 
-  for (var i=0; i < arg_array.length-1; i++) {
+  for (let i=0; i < arg_array.length-1; i++) {
     // ex. sibling's parents == your parents
-    var siblingParentsCondition = siblingsArray.includes(arg_array[i]) && parentArray.includes(arg_array[i+1]);
+    let siblingParentsCondition = siblingsArray.includes(arg_array[i]) && parentArray.includes(arg_array[i+1]);
     // ex. spouse's kids == your kids
-    var spouseKidsCondition = spouseArray.includes(arg_array[i]) && childrenArray.includes(arg_array[i+1]);
+    let spouseKidsCondition = spouseArray.includes(arg_array[i]) && childrenArray.includes(arg_array[i+1]);
     // ex. spouse's spouse == you
-    var spouseSpouseCondition = spouseArray.includes(arg_array[i]) && spouseArray.includes(arg_array[i + 1])
+    let spouseSpouseCondition = spouseArray.includes(arg_array[i]) && spouseArray.includes(arg_array[i + 1])
        && spouseArray.indexOf(arg_array[i]) !== spouseArray.indexOf(arg_array[i+1]);
 
     // ex. your older sibling's older sister == your older sister
-    var siblingSiblingCondition = siblingsArray.includes(arg_array[i]) && siblingsArray.includes(arg_array[i + 1])
+    let siblingSiblingCondition = siblingsArray.includes(arg_array[i]) && siblingsArray.includes(arg_array[i + 1])
+    // array indices 0+ 1 are older siblings, 2 + 3 are younger siblings (see siblingsArray above)
        && ( ((siblingsArray.indexOf(arg_array[i]) === 0 || 1 ) && (siblingsArray.indexOf(arg_array[i+1]) === 0 || 1))  ||
           ((siblingsArray.indexOf(arg_array[i]) === 2 || 3 ) && ( siblingsArray.indexOf(arg_array[i+1]) === 2 || 3)) );
 
@@ -64,7 +65,7 @@ export function removeRedundantArguments(arg_array) {
 export function traverseTree(result, arg_array) {
 
   // traverse tree to right place
-  for (var i=0; i < arg_array.length; i++) {
+  for (let i=0; i < arg_array.length; i++) {
     // ignore "" args
     if (arg_array[i] !== "") {
       if (!result.hasOwnProperty(arg_array[i])) {

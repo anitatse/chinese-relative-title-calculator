@@ -10,30 +10,54 @@
   text-align: right;
 }
 
+.disclaimer {
+  font-size: 16px;
+  text-align: left;
+  margin-top: 50px;
+}
+
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 h1 {
   font-family: 'Happy Monkey', cursive;
   text-align: center;
   font-size: 45px;
-  margin: 20px;
+  margin-top: 20px;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  opacity: 0.7;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 750px;
   padding: 10px;
   margin: auto;
 }
 
 .calculator-body {
-  max-width: 800px;
+  max-width: 750px;
 }
 
 .language {
-  width: 150px;
-  background-color: #ffd6c9;
-  border-radius: 10px;
-  opacity: 0.9;
-  font-size: 26px;
-  margin-bottom: 5px;
+  height: 18px;
+  width: 18px;
+  border-radius: 5px;
+  background-color: #ebebeb;
+  opacity: 0.8;
+  margin: 8px;
+  border-color: #545454;
 }
 
 .language:hover {
@@ -41,16 +65,27 @@ h1 {
 }
 
 .selectedlanguage {
-  width: 150px;
-  background-color: #ff8e6b;
-  border-radius: 10px;
-  opacity: 0.9;
-  font-size: 26px;
-  margin-bottom: 5px;
+  height: 18px;
+  width: 18px;
+  max-height: 18px;
+  max-width: 18px;
+  min-height: 18px;
+  min-width: 18px;
+  border-radius: 5px;
+  background-color: #ed783e;
+  opacity: 0.8;
+  margin: 8px;
+  border-color: #545454;
 }
 
 .selectedlanguage:hover {
   opacity: 1;
+}
+
+.radioLabel {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 20px;
 }
 
 .button {
@@ -60,12 +95,13 @@ h1 {
 
 button {
   width: 40%;
-  height: 70px;
-  font-size: 28px;
+  height: 60px;
+  font-size: 24px;
   border-radius: 0px;
   border: 1px solid #6b6b6b;
   opacity: 1;
   background-color: #ebebeb;
+  font-family: 'Roboto', sans-serif;
 }
 
 button:hover {
@@ -84,7 +120,8 @@ button:disabled:hover {
 
 .fnButton {
   width: 20%;
-  background-color: #ffd591;
+  background-color: #ffca75;
+  display: inline-block;
 }
 
 button:focus {
@@ -99,18 +136,31 @@ button:focus {
    }
 
    .result p {
-     font-size: 30px;
+     font-size: 28px;
    }
 
    .language {
-     font-size: 20px;
+     font-size: 18px;
    }
 
    .selectedlanguage {
-     font-size: 20px;
+     font-size: 18px;
    }
 
    h1 {
      font-size: 40px;
+   }
+
+   .disclaimer {
+     font-size: 14px;
+   }
+
+   p {
+     font-size: 16px;
+   }
+
+   .radioLabel {
+     font-size: 18px;
+     padding-left: 18px;
    }
 }
