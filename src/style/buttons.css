@@ -1,0 +1,99 @@
+.language {
+  height: 18px;
+  width: 18px;
+  border-radius: 5px;
+  background-color: #ebebeb;
+  opacity: 0.8;
+  margin: 8px;
+  border-color: #545454;
+}
+
+.language:hover {
+  opacity: 1;
+}
+
+.selectedlanguage {
+  height: 18px;
+  width: 18px;
+  max-height: 18px;
+  max-width: 18px;
+  min-height: 18px;
+  min-width: 18px;
+  border-radius: 5px;
+  background-color: #ed783e;
+  opacity: 0.8;
+  margin: 8px;
+  border-color: #545454;
+}
+
+.selectedlanguage:hover {
+  opacity: 1;
+}
+
+.radioLabel {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 20px;
+}
+
+.button {
+  display: block;
+  background-color: #bbb;
+}
+
+button {
+  width: 50%;
+  height: 60px;
+  font-size: 24px;
+  border-radius: 0px;
+  border: 1px solid #6b6b6b;
+  opacity: 1;
+  background-color: #ebebeb;
+  font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+  opacity: 0.9;
+  border: 1px solid #292929;
+}
+
+button:disabled {
+  opacity: 0.65;
+  border: 1px solid #a1a1a1;
+}
+
+button:disabled:hover {
+  opacity: 0.65;
+}
+
+.fnButton {
+  width: 100%;
+  background-color: #ffca75;
+  display: inline-block;
+}
+
+button:focus {
+  outline: none;
+  border: 2px solid #303030;
+}
+
+@media screen and (max-width: 600px) {
+   button {
+     font-size: 15px;
+     line-height: 1;
+   }
+
+
+   .language {
+     font-size: 18px;
+   }
+
+   .selectedlanguage {
+     font-size: 18px;
+   }
+
+   .radioLabel {
+     font-size: 18px;
+     padding-left: 18px;
+   }
+}

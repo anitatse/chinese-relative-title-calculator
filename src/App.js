@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './style/App.css';
+import './style/buttons.css';
 import ResultComponent from './components/ResultComponent';
 import KeyPadComponent from "./components/KeyPadComponent";
 import LanguageComponent from "./components/LanguageComponent";
+import FunctionKeyComponent from "./components/FunctionKeyComponent";
 import { removeRedundantArguments, traverseTree } from './TreeTraversal.js';
 import { readSpeech } from './Speech.js';
 let data = require('./data/familydata.json');
@@ -148,10 +150,15 @@ class App extends Component {
                     </p>
                     <LanguageComponent onClick={this.onClick} language={this.state.language}/>
                     <ResultComponent result={this.state.printedresult}/>
-                    <KeyPadComponent onClick={this.onClick} isWaitReset={this.state.isWaitReset}/>
-                    <p className="disclaimer">* It is understood that these titles are based off Asian customs and do not represent all of the relationships and gender identities out there. Audio feature is not compatible with all devices.
-                    <br></br>
-                    See a bug or want to help add another language? <a href="https://github.com/anitatse/chinese-relative-title-calculator" target="_blank">Contribute</a> or <a href="mailto:anitatse@alumni.ubc.ca">email me</a> 😊</p>
+                    <div className="row"><KeyPadComponent onClick={this.onClick} isWaitReset={this.state.isWaitReset}/><FunctionKeyComponent onClick={this.onClick} isWaitReset={this.state.isWaitReset}/></div>
+                    <p className="disclaimer">
+                    Click the buttons according to the relation you want to know about. For example, to find your mom's older sister's title, click <mark>Mom</mark>, <mark>Older sister</mark>, <mark>=</mark>. Click 🗣 to hear the audio, or toggle between the Mandarin and Cantonese languages to explore the differences/similarities between the two!
+                    <br></br><br></br>
+                    See a bug or want to help add another language? <a href="https://github.com/anitatse/chinese-relative-title-calculator" target="_blank">Contribute</a> or <a href="mailto:anitatse@alumni.ubc.ca">email me</a> 😊
+                    <br></br><br></br>
+                    * It is understood that these titles are based off Asian customs and do not represent all of the relationships and gender identities out there. Audio feature is not compatible with all devices.
+
+                    </p>
                 </div>
             </div>
         );
