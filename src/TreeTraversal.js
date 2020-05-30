@@ -18,6 +18,7 @@ export function removeRedundantArguments(arg_array) {
 
     // ex. your older sibling's older sister == your older sister
     var siblingSiblingCondition = siblingsArray.includes(arg_array[i]) && siblingsArray.includes(arg_array[i + 1])
+    // array indices 0+ 1 are older siblings, 2 + 3 are younger siblings (see siblingsArray above)
        && ( ((siblingsArray.indexOf(arg_array[i]) === 0 || 1 ) && (siblingsArray.indexOf(arg_array[i+1]) === 0 || 1))  ||
           ((siblingsArray.indexOf(arg_array[i]) === 2 || 3 ) && ( siblingsArray.indexOf(arg_array[i+1]) === 2 || 3)) );
 

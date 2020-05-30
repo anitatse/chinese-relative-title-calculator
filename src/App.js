@@ -120,11 +120,14 @@ class App extends Component {
             <div className="container">
                 <div className="calculator-body">
                     <h1>Chinese Relative Title Calculator</h1>
-                    <p>Chinese relative titles are complicated. Here's a calculator to help! <br></br> Titles are based off the charts by <a href="https://youtu.be/nCFRoILS1jY">Off the Great Wall</a></p>
+                    <p>
+                      Chinese relative titles are complicated. Here's a calculator to help! <br></br>
+                      Inspiration from <a href="https://play.google.com/store/apps/details?id=org.igears.relativesa&hl=en">姨媽姑姐</a> and titles based off <a href="https://youtu.be/nCFRoILS1jY">Off the Great Wall</a>.
+                    </p>
                     <LanguageComponent onClick={this.onClick} language={this.state.language}/>
                     <ResultComponent result={this.state.printedresult}/>
                     <KeyPadComponent onClick={this.onClick} isWaitReset={this.state.isWaitReset} isWaitS={this.state.isWaitS}/>
-                    <p>* It is understood that not all gender identities and relationships are represented in this calculator.</p>
+                    <p className="disclaimer">* It is understood that these titles are asian customs and do not represent all gender identities and relationships out there. See a bug or want to help add another language?  <a href="mailto:anitatse@alumni.ubc.ca">Email me</a> :)</p>
                 </div>
             </div>
         );
