@@ -3136,5 +3136,115 @@
         "daughter": ""
       }
     }
+  },
+  "generalterms": {
+    "aunt": {
+      "canto": {
+        "pinyin": "General term: ā yí",
+        "characters": "阿姨"
+      },
+      "mando": {
+        "pinyin": "General term: ā yí",
+        "characters": "阿姨"
+      },
+      "korean": {
+        "pinyin": "General term: Ajumeoni",
+        "characters": "아주머니"
+      },
+      "japanese": {
+        "pinyin": "General term: Oba",
+        "characters": "叔母"
+      }
+    },
+    "uncle": {
+      "canto": {
+        "pinyin": "General term: Sūksuk",
+        "characters": "叔叔"
+      },
+      "mando": {
+        "pinyin": "General term: Shūshu",
+        "characters": "叔叔"
+      },
+      "korean": {
+        "pinyin": "General term: Samchon",
+        "characters": "삼촌"
+      },
+      "japanese": {
+        "pinyin": "General term: Oji",
+        "characters": "叔父"
+      }
+    },
+    "grandaunt": {
+      "canto": {
+        "pinyin": "General term: Pòhpó",
+        "characters": "婆婆"
+      },
+      "mando": {
+        "pinyin": "General term: Nǎinai",
+        "characters": "奶奶"
+      },
+      "korean": {
+        "pinyin": "General term: Ajumeoni",
+        "characters": "아주머니"
+      },
+      "japanese": {
+        "pinyin": "General term: Oba",
+        "characters": "叔母"
+      }
+    },
+    "granduncle": {
+      "canto": {
+        "pinyin": "General term: Gùnggùng",
+        "characters": "公公"
+      },
+      "mando": {
+        "pinyin": "General term: Yéye",
+        "characters": "爷爷"
+      },
+      "korean": {
+        "pinyin": "General term: Samchon",
+        "characters": "삼촌"
+      },
+      "japanese": {
+        "pinyin": "General term: Oji",
+        "characters": "叔父"
+      }
+    },
+    "brother": {
+      "canto": {
+        "pinyin": "General term: Gògo",
+        "characters": "哥哥"
+      },
+      "mando": {
+        "pinyin": "General term: Dàgē",
+        "characters": "大哥"
+      },
+      "korean": {
+        "pinyin": "General term: Hyeong or Oppa",
+        "characters": "형 or 오빠"
+      },
+      "japanese": {
+        "pinyin": "General term: Ani",
+        "characters": "兄"
+      }
+    },
+    "sister": {
+      "canto": {
+        "pinyin": "General term: Jèje",
+        "characters": "姐姐"
+      },
+      "mando": {
+        "pinyin": "General term: Dàjiě",
+        "characters": "大姐"
+      },
+      "korean": {
+        "pinyin": "General term: Noona or Eonni",
+        "characters": "누나 or 언니"
+      },
+      "japanese": {
+        "pinyin": "General term: Ane",
+        "characters": "姉"
+      }
+    }
   }
 }

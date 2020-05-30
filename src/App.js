@@ -5,7 +5,7 @@ import ResultComponent from './components/ResultComponent';
 import KeyPadComponent from "./components/KeyPadComponent";
 import LanguageComponent from "./components/LanguageComponent";
 import FunctionKeyComponent from "./components/FunctionKeyComponent";
-import { removeRedundantArguments, traverseTree } from './TreeTraversal.js';
+import { removeRedundantArguments, traverseTree, getGeneralTerm } from './TreeTraversal.js';
 import { readSpeech } from './Speech.js';
 let data = require('./data/familydata.json');
 
@@ -58,11 +58,11 @@ class App extends Component {
 
     calculate = () => {
 
-        let arg_array = removeRedundantArguments(this.state.result.split("'s "))
-        let result = traverseTree(data, arg_array);
+        let argArray = removeRedundantArguments(this.state.result.split("'s "))
+        let result = traverseTree(data, argArray);
+        let errorMessage = getGeneralTerm(data, this.state.language, argArray);
 
         try {
-
           if ((result.names[this.state.language] || "") !== "") {
             this.setState({
                 printedresult: result.names[this.state.language],
@@ -70,14 +70,14 @@ class App extends Component {
             })
           } else {
             this.setState({
-                printedresult: "Error 😢",
+                printedresult: errorMessage,
                 isWaitReset: true
             })
           }
 
         } catch (e) {
             this.setState({
-                printedresult: "Error 😢",
+                printedresult: errorMessage,
                 isWaitReset: true
             })
         }
@@ -143,6 +143,7 @@ class App extends Component {
             let nextIndexToSlice = this.state.result.lastIndexOf("'s ");
 
             if (indexToSlice === -1) {
+              // treat as reset when it is empty
                 this.reset();
             } else {
                 this.setState({
