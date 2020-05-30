@@ -10,11 +10,28 @@
   text-align: right;
 }
 
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 h1 {
   font-family: 'Happy Monkey', cursive;
   text-align: center;
   font-size: 45px;
-  margin: 20px;
+  margin-top: 20px;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  opacity: 0.7;
 }
 
 .container {
@@ -32,7 +49,7 @@ h1 {
   background-color: #ffd6c9;
   border-radius: 10px;
   opacity: 0.9;
-  font-size: 26px;
+  font-size: 22px;
   margin-bottom: 5px;
 }
 
@@ -45,7 +62,7 @@ h1 {
   background-color: #ff8e6b;
   border-radius: 10px;
   opacity: 0.9;
-  font-size: 26px;
+  font-size: 22px;
   margin-bottom: 5px;
 }
 
@@ -61,11 +78,12 @@ h1 {
 button {
   width: 40%;
   height: 70px;
-  font-size: 28px;
+  font-size: 24px;
   border-radius: 0px;
   border: 1px solid #6b6b6b;
   opacity: 1;
   background-color: #ebebeb;
+  font-family: 'Roboto', sans-serif;
 }
 
 button:hover {
@@ -99,15 +117,15 @@ button:focus {
    }
 
    .result p {
-     font-size: 30px;
+     font-size: 28px;
    }
 
    .language {
-     font-size: 20px;
+     font-size: 18px;
    }
 
    .selectedlanguage {
-     font-size: 20px;
+     font-size: 18px;
    }
 
    h1 {

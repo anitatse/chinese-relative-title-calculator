@@ -100,7 +100,7 @@ class App extends Component {
             })
         } catch (e) {
             this.setState({
-                printedresult: "Error 🥺",
+                printedresult: "idk",
                 isWaitReset: true
             })
         }
@@ -120,9 +120,11 @@ class App extends Component {
             <div className="container">
                 <div className="calculator-body">
                     <h1>Chinese Relative Title Calculator</h1>
+                    <p>Chinese relative titles are complicated. Here's a calculator to help! <br></br> Titles are based off the charts by <a href="https://youtu.be/nCFRoILS1jY">Off the Great Wall</a></p>
                     <LanguageComponent onClick={this.onClick} language={this.state.language}/>
                     <ResultComponent result={this.state.printedresult}/>
                     <KeyPadComponent onClick={this.onClick} isWaitReset={this.state.isWaitReset} isWaitS={this.state.isWaitS}/>
+                    <p>* It is understood that not all gender identities and relationships are represented in this calculator.</p>
                 </div>
             </div>
         );
