@@ -41,22 +41,23 @@ a:hover {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 750px;
   padding: 10px;
   margin: auto;
 }
 
 .calculator-body {
-  max-width: 800px;
+  max-width: 750px;
 }
 
 .language {
-  width: 150px;
-  background-color: #ffd6c9;
-  border-radius: 10px;
-  opacity: 0.9;
-  font-size: 22px;
-  margin-bottom: 5px;
+  height: 18px;
+  width: 18px;
+  border-radius: 5px;
+  background-color: #ebebeb;
+  opacity: 0.8;
+  margin: 8px;
+  border-color: #545454;
 }
 
 .language:hover {
@@ -64,16 +65,27 @@ a:hover {
 }
 
 .selectedlanguage {
-  width: 150px;
-  background-color: #ff8e6b;
-  border-radius: 10px;
-  opacity: 0.9;
-  font-size: 22px;
-  margin-bottom: 5px;
+  height: 18px;
+  width: 18px;
+  max-height: 18px;
+  max-width: 18px;
+  min-height: 18px;
+  min-width: 18px;
+  border-radius: 5px;
+  background-color: #ed783e;
+  opacity: 0.8;
+  margin: 8px;
+  border-color: #545454;
 }
 
 .selectedlanguage:hover {
   opacity: 1;
+}
+
+.radioLabel {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 20px;
 }
 
 .button {
@@ -83,7 +95,7 @@ a:hover {
 
 button {
   width: 40%;
-  height: 70px;
+  height: 60px;
   font-size: 24px;
   border-radius: 0px;
   border: 1px solid #6b6b6b;
@@ -108,7 +120,8 @@ button:disabled:hover {
 
 .fnButton {
   width: 20%;
-  background-color: #ffd591;
+  background-color: #ffca75;
+  display: inline-block;
 }
 
 button:focus {
@@ -144,5 +157,10 @@ button:focus {
 
    p {
      font-size: 16px;
+   }
+
+   .radioLabel {
+     font-size: 18px;
+     padding-left: 18px;
    }
 }

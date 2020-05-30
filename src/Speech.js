@@ -6,13 +6,6 @@ export function readSpeech(language, result) {
   let text;
   let voice;
 
-  // read arguments in english
-  if (!result.hasOwnProperty("characters")) {
-    setLanguage = "en-US";
-    text = result;
-    voice = "Google US English";
-  }
-
   // read answers in chinese
   text = result.characters;
   if (language === "mando") {
@@ -21,6 +14,13 @@ export function readSpeech(language, result) {
   } else {
     setLanguage = "zh-HK";
     voice = "Sin-ji";
+  }
+
+  // read arguments in english
+  if (!result.hasOwnProperty("characters")) {
+    setLanguage = "en-US";
+    text = result;
+    voice = "Google US English";
   }
 
   const speech = new Speech();
