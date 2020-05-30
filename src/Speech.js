@@ -2,11 +2,25 @@ import Speech from "speak-tts";
 
 export function readSpeech(language, result) {
 
-  var setLanguage;
+  let setLanguage;
+  let text;
+  let voice;
+
+  // read arguments in english
+  if (!result.hasOwnProperty("characters")) {
+    setLanguage = "en-US";
+    text = result;
+    voice = "Google US English";
+  }
+
+  // read answers in chinese
+  text = result.characters;
   if (language === "mando") {
     setLanguage = "zh-CN";
+    voice = "Ting-Ting";
   } else {
     setLanguage = "zh-HK";
+    voice = "Sin-ji";
   }
 
   const speech = new Speech();
@@ -17,12 +31,13 @@ export function readSpeech(language, result) {
       lang: setLanguage,
       rate: 0.8,
       pitch: 1,
+      voice: voice,
       splitSentences: false
     })
     .then(data => {
       speech
         .speak({
-          text: result.characters,
+          text: text,
           queue: false
         })
     })
@@ -30,8 +45,8 @@ export function readSpeech(language, result) {
       console.error("An error occured while initializing : ", e);
     });
 
-  const text = speech.hasBrowserSupport()
+  const browserSupportText = speech.hasBrowserSupport()
     ? "Hurray, your browser supports speech synthesis"
     : "Your browser does NOT support speech synthesis. Try using Chrome of Safari instead !";
-  console.log(text);
+  console.log(browserSupportText);
 }

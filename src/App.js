@@ -5,7 +5,7 @@ import KeyPadComponent from "./components/KeyPadComponent";
 import LanguageComponent from "./components/LanguageComponent";
 import { removeRedundantArguments, traverseTree } from './TreeTraversal.js';
 import { readSpeech } from './Speech.js';
-var data = require('./data/familydata.json');
+let data = require('./data/familydata.json');
 
 class App extends Component {
     constructor(){
@@ -51,8 +51,8 @@ class App extends Component {
 
     calculate = () => {
 
-        var arg_array = removeRedundantArguments(this.state.result.split("'s "))
-        var result = traverseTree(data, arg_array);
+        let arg_array = removeRedundantArguments(this.state.result.split("'s "))
+        let result = traverseTree(data, arg_array);
 
         try {
             this.setState({
@@ -62,7 +62,7 @@ class App extends Component {
             })
         } catch (e) {
             this.setState({
-                printedresult: "idk",
+                printedresult: "Error 😢",
                 isWaitReset: true
             })
         }
@@ -80,15 +80,14 @@ class App extends Component {
       this.setState({ language: language },
         () => {
         if (this.state.isWaitReset) {
-          console.log(this.state);
           this.calculate();
         }
       } );
     }
 
     addArgument = (button) => {
-        var toPrintedResult;
-        var toResult;
+        let toPrintedResult;
+        let toResult;
 
         if (this.state.printedresult !== "") {
              toPrintedResult = this.state.printedresult + "'s ";
@@ -124,8 +123,8 @@ class App extends Component {
           this.reset();
         }
         else if (this.state.result !== "") {
-            var indexToSlice = this.state.printedresult.lastIndexOf("'s ");
-            var nextIndexToSlice = this.state.result.lastIndexOf("'s ");
+            let indexToSlice = this.state.printedresult.lastIndexOf("'s ");
+            let nextIndexToSlice = this.state.result.lastIndexOf("'s ");
 
             if (indexToSlice === -1) {
                 this.reset();
