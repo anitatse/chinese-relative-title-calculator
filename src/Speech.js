@@ -1,14 +1,14 @@
 import Speech from "speak-tts";
 
-export function readSpeech(language, result) {
+export function readSpeech(language, args, result) {
 
   let setLanguage;
   let text;
   let voice;
-
-  // read answers in language
+  
   text = result.characters;
 
+  // read answers in language
   if (language === "mando") {
     setLanguage = "zh-CN";
     voice = "Ting-Ting";
@@ -26,7 +26,7 @@ export function readSpeech(language, result) {
   // read arguments in english
   if (!result.hasOwnProperty("characters")) {
     setLanguage = "en-US";
-    text = result;
+    text = args;
     voice = "Google US English";
   }
 
@@ -42,7 +42,6 @@ export function readSpeech(language, result) {
       splitSentences: false
     })
     .then(data => {
-      console.log(data);
       speech
         .speak({
           text: text,

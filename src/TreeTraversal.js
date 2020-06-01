@@ -4,10 +4,22 @@ let parentArray = ["mom", "dad"];
 let spouseArray = ["husband", "wife"];
 let childrenArray = ["son", "daughter"];
 let femaleArray = ["oldersister", "youngersister", "mom", "wife", "daughter"];
-let maleArray = ["olderbrother", "youngerbrother", "dad", "husband", "son"];
 
 //removes redundant arguments from the path
 export function removeRedundantArguments(argArray) {
+
+  // a bad fix for now, reduce until your can't reduce farther
+  while (argArray.toString() !== doReduceArgumentLogic(argArray).toString()) {
+    argArray = removeRedundantArguments(argArray)
+    // filter out any ""'s that were made
+    argArray = argArray.filter( (arg) => {
+      return arg !== "";
+    });
+  }
+  return argArray;
+}
+
+function doReduceArgumentLogic(argArray) {
 
   for (let i=0; i < argArray.length-1; i++) {
     // ex. sibling's parents == your parents
@@ -27,6 +39,7 @@ export function removeRedundantArguments(argArray) {
        argArray[i] = "";
     }
 
+    // spouse's spouse = you
     if (spouseSpouseCondition) {
       argArray[i] = "";
       argArray[i+1] = "";
@@ -39,10 +52,26 @@ export function removeRedundantArguments(argArray) {
             argArray[i] = "daughter";
             argArray[i+1] = "";
         }
+        // if child's older or younger brother -> it is their son
         if (siblingsArray.indexOf(argArray[i+1]) === 1 || siblingsArray.indexOf(argArray[i+1]) === 3 ) {
             argArray[i] = "son";
             argArray[i+1] = "";
         }
+    }
+
+    // your kid's mom = wife  (this is an assumption)
+    if (childrenArray.includes(argArray[i]) && parentArray.includes(argArray[i+1])) {
+      if (femaleArray.includes(argArray[i+1])) {
+        argArray[i] = "wife";
+      } else {
+        argArray[i] = "husband";
+      }
+      argArray[i+1] = "";
+    }
+
+    //simplify parent child path (mom's kid == dad's kid) dataset only has children under dad
+    if (parentArray.includes(argArray[i]) && childrenArray.includes(argArray[i+1])) {
+        argArray[i] = "dad";
     }
 
     // simplify parent path
@@ -57,20 +86,7 @@ export function removeRedundantArguments(argArray) {
             argArray[i+1] = "";
         }
     }
-
-    //simplify parent child path (mom's kid == dad's kid) dataset only has children under dad
-    if (parentArray.includes(argArray[i]) && childrenArray.includes(argArray[i+1])) {
-        argArray[i] = "dad";
-    }
-
-    // your kid's dad = you (this is an assumption)
-    if (childrenArray.includes(argArray[i]) && parentArray.includes(argArray[i+1])) {
-            argArray[i] = "";
-            argArray[i+1] = "";
-    }
-
   }
-
   return argArray;
 }
 
@@ -82,7 +98,7 @@ function calculateLevel(argArray) {
         if (parentArray.includes(argArray[i])) {
           counter++;
         } else if(childrenArray.includes(argArray[i])){
-          counter--
+          counter--;
         }
     }
   }
@@ -90,8 +106,8 @@ function calculateLevel(argArray) {
 }
 
 function calculateGender(argArray) {
-  let gender = "male";
-  // check the last argument if it's a female or not
+  let gender;
+  // check gender of last argument
   if (femaleArray.includes(argArray[argArray.length-1])) {
     gender = "female";
   } else {
@@ -105,11 +121,19 @@ export function getGeneralTerm(data, language, argArray) {
   let gender = calculateGender(argArray);
   let result = "";
 
-  if (level <= 0 && gender === "female") {
+  if (level < 0 && gender === "female") {
+      // Younger
+      result = data.generalterms.youngersister[language];
+  }
+  else if (level < 0 && gender === "male") {
+      // Younger
+      result = data.generalterms.youngerbrother[language];
+  }
+  else if (level === 0 && gender === "female") {
       // sister
       result = data.generalterms.sister[language];
   }
-  else if (level <= 0 && gender === "male") {
+  else if (level === 0 && gender === "male") {
       // brother
       result = data.generalterms.brother[language];
   }

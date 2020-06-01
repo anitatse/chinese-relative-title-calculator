@@ -1911,8 +1911,8 @@
           "characters": "小叔"
         },
         "korean": {
-          "pinyin": "Si-dongsaeng",
-          "characters": "시동생"
+          "pinyin": "Doryeonnim",
+          "characters": "도련님"
         },
         "japanese": {
           "pinyin": "Giri no otouto",
@@ -1941,8 +1941,8 @@
           "characters": "小姑"
         },
         "korean": {
-          "pinyin": "Agasshi",
-          "characters": "아가씨"
+          "pinyin": "Sinui",
+          "characters": "시누이"
         },
         "japanese": {
           "pinyin": "Giri no imouto",
@@ -1978,8 +1978,8 @@
         "characters": "아내"
       },
       "japanese": {
-        "pinyin": "Kanai",
-        "characters": "家内"
+        "pinyin": "Yome",
+        "characters": "嫁"
       }
     },
     "dad": {
@@ -3148,12 +3148,12 @@
         "characters": "阿姨"
       },
       "korean": {
-        "pinyin": "General term: Ajumeoni",
-        "characters": "아주머니"
+        "pinyin": "General term: Ajumma",
+        "characters": "아줌마"
       },
       "japanese": {
-        "pinyin": "General term: Oba",
-        "characters": "叔母"
+        "pinyin": "General term: Obasan ",
+        "characters": "お婆さん"
       }
     },
     "uncle": {
@@ -3170,8 +3170,8 @@
         "characters": "삼촌"
       },
       "japanese": {
-        "pinyin": "General term: Oji",
-        "characters": "叔父"
+        "pinyin": "General term: Ojisan",
+        "characters": "お爺さん"
       }
     },
     "grandaunt": {
@@ -3184,12 +3184,12 @@
         "characters": "奶奶"
       },
       "korean": {
-        "pinyin": "General term: Ajumeoni",
-        "characters": "아주머니"
+        "pinyin": "General term: Halmeoni",
+        "characters": "할머니"
       },
       "japanese": {
-        "pinyin": "General term: Oba",
-        "characters": "叔母"
+        "pinyin": "General term: Obasan",
+        "characters": "お婆さん"
       }
     },
     "granduncle": {
@@ -3202,12 +3202,12 @@
         "characters": "爷爷"
       },
       "korean": {
-        "pinyin": "General term: Samchon",
-        "characters": "삼촌"
+        "pinyin": "General term: Harabeoji",
+        "characters": "할아버지"
       },
       "japanese": {
-        "pinyin": "General term: Oji",
-        "characters": "叔父"
+        "pinyin": "General term: Ojisan",
+        "characters": "お爺さん"
       }
     },
     "brother": {
@@ -3224,8 +3224,8 @@
         "characters": "형 or 오빠"
       },
       "japanese": {
-        "pinyin": "General term: Ani",
-        "characters": "兄"
+        "pinyin": "General term: Onisan",
+        "characters": "お兄さん"
       }
     },
     "sister": {
@@ -3242,8 +3242,44 @@
         "characters": "누나 or 언니"
       },
       "japanese": {
-        "pinyin": "General term: Ane",
-        "characters": "姉"
+        "pinyin": "General term: Onesan",
+        "characters": "お姉さん"
+      }
+    },
+    "youngersister": {
+      "canto": {
+        "pinyin": "General term: Múimúi",
+        "characters": "妹妹"
+      },
+      "mando": {
+        "pinyin": "General term: Mèimei",
+        "characters": "妹妹"
+      },
+      "korean": {
+        "pinyin": "General term: Their name",
+        "characters": ""
+      },
+      "japanese": {
+        "pinyin": "General term: Their name",
+        "characters": ""
+      }
+    },
+    "youngerbrother": {
+      "canto": {
+        "pinyin": "General term: Daidai",
+        "characters": "弟弟"
+      },
+      "mando": {
+        "pinyin": "General term: Dìdì",
+        "characters": "弟弟"
+      },
+      "korean": {
+        "pinyin": "General term: Their name",
+        "characters": ""
+      },
+      "japanese": {
+        "pinyin": "General term: Their name",
+        "characters": ""
       }
     }
   }
