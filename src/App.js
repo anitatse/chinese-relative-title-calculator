@@ -5,8 +5,9 @@ import ResultComponent from './components/ResultComponent';
 import KeyPadComponent from "./components/KeyPadComponent";
 import LanguageComponent from "./components/LanguageComponent";
 import FunctionKeyComponent from "./components/FunctionKeyComponent";
-import { removeRedundantArguments, traverseTree, getGeneralTerm } from './TreeTraversal.js';
-import { readSpeech } from './Speech.js';
+import { removeRedundantArguments, traverseTree, getGeneralTerm } from './js/TreeTraversal.js';
+import { readSpeech } from './js/Speech.js';
+import { appendSToResults, addButtonArgument } from './js/BuildArgument.js';
 let data = require('./data/familydata.json');
 
 let ARG_CHAR_LIMIT = 90;
@@ -26,31 +27,33 @@ class App extends Component {
 
     onClick = button => {
 
-        if (button === "="){
-            this.calculate()
-        }
-        else if(button === "C"){
-            this.reset()
-        }
-        else if(button === "audio") {
-            this.playAudio()
-        }
-        else if(button === "back") {
-            this.backspace()
-        }
-        else if(button === "canto") {
-            this.setLanguage("canto")
-        }
-        else if(button === "mando") {
-            this.setLanguage("mando")
-        }
-        else if(button === "korean") {
-            this.setLanguage("korean")
-        }
-        else if(button === "japanese") {
-            this.setLanguage("japanese")
-        } else {
-            this.addArgument(button)
+        switch (button) {
+          case "=":
+            this.calculate();
+            break;
+          case "C":
+            this.reset();
+            break;
+          case "audio":
+            this.playAudio();
+            break;
+          case "back":
+            this.backspace();
+            break;
+          case "canto":
+            this.setLanguage("canto");
+            break;
+          case "mando":
+            this.setLanguage("mando");
+            break;
+          case "korean":
+            this.setLanguage("korean");
+            break;
+          case "japanese":
+            this.setLanguage("japanese");
+            break;
+          default:
+            this.addArgument(button);
        }
     };
 
@@ -62,12 +65,13 @@ class App extends Component {
 
         let argArray = this.state.argString.split("'s ");
         argArray = removeRedundantArguments(argArray);
-
         let result = traverseTree(data, argArray);
         let errorMessage = getGeneralTerm(data, this.state.language, argArray);
+
+        // if no arguments, default to "me"
         if (argArray.length === 0) {
           this.setState({
-              argStringToPrint: "Me" 
+              argStringToPrint: "Me"
           });
         }
 
@@ -112,31 +116,9 @@ class App extends Component {
     }
 
     addArgument = (button) => {
-        let toPrintedResult;
-        let toResult;
 
-        if (this.state.argStringToPrint !== "") {
-             toPrintedResult = this.state.argStringToPrint + "'s ";
-             toResult =this.state.argString + "'s ";
-        } else {
-             toPrintedResult = this.state.argStringToPrint
-             toResult =this.state.argString;
-        }
-
-        if (button === "oldersister") {
-             toPrintedResult = toPrintedResult + "older sister"
-        }
-        else if (button === "youngersister") {
-             toPrintedResult = toPrintedResult + "younger sister"
-        }
-        else if (button === "olderbrother") {
-             toPrintedResult = toPrintedResult + "older brother"
-        }
-        else if (button === "youngerbrother") {
-             toPrintedResult = toPrintedResult + "younger brother"
-        } else {
-             toPrintedResult = toPrintedResult + button
-        }
+        let {toPrintedResult, toResult} = appendSToResults(this.state);
+        toPrintedResult = addButtonArgument(button, toPrintedResult);
 
         if (toPrintedResult.length < ARG_CHAR_LIMIT) {
           this.setState({
@@ -144,7 +126,6 @@ class App extends Component {
             argStringToPrint: toPrintedResult,
           })
         }
-
     }
 
     backspace = () => {
@@ -153,7 +134,7 @@ class App extends Component {
         }
         else if (this.state.argString !== "") {
             let indexToSlice = this.state.argStringToPrint.lastIndexOf("'s ");
-            let nextIndexToSlice =this.state.argString.lastIndexOf("'s ");
+            let nextIndexToSlice = this.state.argString.lastIndexOf("'s ");
 
             if (indexToSlice === -1) {
               // treat as reset when it is empty
